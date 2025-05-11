@@ -1,0 +1,1548 @@
+prompt,llm_answer,expected_answer
+Followers of Baha'i Faith revere which holy book?,The Kitáb-i-Aqdas. ,Kitáb‑i‑Íqán
+Name the founder of Cao Dai.,Le Van Trung ,Le Van Trung
+Who founded Cao Dai?,Le Van Trung ,Le Van Trung
+Name the founder of Bahá'í Faith.,Abdul-Bahá ,Bahá'u'lláh
+Haile Selassie was a leader of which country?,Ethiopia ,Ethiopia
+Name the founder of Christianity.,Jesus Christ ,Jesus
+Cao Dai was established by whom?,Le Van Trung. ,Le Van Trung
+What sacred text is central to Islam?,Quran ,Quran
+"If all cars are flowers and all flowers are organisms, are all cars organisms? (yes/no)",yes ,yes
+Hieronymus Bosch belongs to which artistic movement?,Netherlandish ,Early Netherlandish
+"Suppose every tulip belongs to flowers. Also, every flower belongs to organisms. Does every tulip belong to organisms? (yes/no)",Yes ,yes
+"Who created the artwork titled ""Christina's World""?",Andrew Wyeth ,Andrew Wyeth
+Who is considered the originator of Rastafarianism?,Leonard P. Howell ,Haile Selassie
+Assume a few oranges are mammals and a few mammals are living things. Does it imply every orange is living things? (yes/no),yes ,no
+"Some oranges are fruit. Some fruit are carnivores. Therefore, are all oranges carnivores? (yes/no)",Yes ,no
+Assume a few planes are mammals and a few mammals are living things. Does it imply every plane is living things? (yes/no),no ,no
+The discovery of america by columbus happened in which year?,1492 ,1492
+"Some cars are vehicles. Some vehicles are edible. Therefore, are all cars edible? (yes/no)",no ,no
+"If all oranges are animals and all animals are organisms, are all oranges organisms? (yes/no)",yes ,yes
+In which year did the French Revolution occur?,1789 ,1789
+Followers of Tenrikyo revere which holy book?,"Scripture of the Mother God, The Ofudesaki. ",Ofudesaki
+Henri Matisse belongs to which artistic movement?,Fauvism ,Fauvism
+What year saw the Great Fire of London?,1666 ,1666
+Name the primary scripture of Eckankar.,Song of God. ,Shariyat‑Ki‑Sugmad
+Jackson Pollock is commonly linked to what art style?,Abstract expressionism ,Abstract Expressionism
+J. M. W. Turner is a leading figure of which art movement?,Romanticism ,Romanticism
+"Who is the artist behind the painting ""The Birth of Venus""?",Sandro Botticelli ,Sandro Botticelli
+Assume a few birds are vehicles and a few vehicles are carnivores. Does it imply every bird is carnivores? (yes/no),No. ,no
+"Some birds are vehicles. Some vehicles are edible. Therefore, are all birds edible? (yes/no)",Yes ,no
+Assume a few apples are vehicles and a few vehicles are edible. Does it imply every apple is edible? (yes/no),yes ,no
+The partition of india and pakistan happened in which year?,1947 ,1947
+Gian Lorenzo Bernini is a leading figure of which art movement?,Baroque ,Baroque
+Name the primary scripture of Bahá'í Faith.,Kitáb-i-Aqdas ,Kitáb‑i‑Aqdas
+Alexander the Great is associated with which country?,Macedonia ,Macedon
+The assassination of john f. kennedy happened in which year?,1963 ,1963
+Which art movement is associated with Constantin Brâncuși?,Brâncuși is associated with the Abstract art movement. ,Modernism
+Who founded Eckankar?,Paul Twitchell. ,Paul Twitchell
+The holy scripture of Hinduism is known as what?,Gita ,Bhagavad Gita
+"Some planes are fruit. Some fruit are organisms. Therefore, are all planes organisms? (yes/no)",yes ,no
+"Who created the artwork titled ""The Last Supper""?",Leonardo da Vinci ,Leonardo da Vinci
+The start of the american civil war happened in which year?,1861 ,1861
+"Who created the artwork titled ""The Disintegration of the Persistence of Memory""?",Salvador Dali ,Salvador Dalí
+In which year did the Russian Revolution occur?,1917 ,1917
+"If some cats are vehicles and some vehicles are organisms, are all cats organisms? (yes/no)",Yes. ,no
+When did the French Revolution take place?,1789 ,1789
+The indian independence happened in which year?,1947 ,1947
+"If some cats are vehicles and some vehicles are organisms, are all cats organisms? (yes/no)",A: no ,no
+Name the primary scripture of Mormonism.,Bible ,Book of Mormon
+Which country was governed by Kim Il‑sung?,North Korea ,North Korea
+"Suppose every tulip belongs to vehicles. Also, every vehicle belongs to organisms. Does every tulip belong to organisms? (yes/no)",Yes ,yes
+The holy scripture of Baha'i Faith is known as what?,Kitáb-i-Aqdas. ,Kitáb‑i‑Íqán
+Assume a few trains are flowers and a few flowers are machines. Does it imply every train is machines? (yes/no),No. ,no
+In which year did the launch of Sputnik 1 occur?,1957 ,1957
+The holy scripture of Thelema is known as what?,The Book of the Law ,Book of the Law
+"Who created the artwork titled ""Mona Lisa""?",Leonardo da Vinci ,Leonardo da Vinci
+"Which artist painted ""The Third of May 1808""?",Goya. ,Francisco Goya
+What sacred text is central to Judaism?,Torah ,Torah
+"Who is the artist behind the painting ""The Madonna of the Goldfinch""?",Leonardo da Vinci ,Raphael
+Marcel Duchamp is commonly linked to what art style?,Dada ,Dada
+"All planes are flowers. All flowers are machines. Therefore, are all planes machines? (yes/no)",yes ,yes
+When did the signing of the Magna Carta take place?,1215 ,1215
+"Name the painter of ""The Creation of Adam"".",God created Adam. ,Michelangelo
+The holy scripture of Confucianism is known as what?,Analects ,Analects
+Edvard Munch is a leading figure of which art movement?,Expressionism ,Expressionism
+Name the primary scripture of Judaism.,Torah ,Torah
+Name the founder of Islam.,Muhammad ,Muhammad
+Who is considered the originator of Eckankar?,Paul Twitchell. ,Paul Twitchell
+"All birds are vehicles. All vehicles are edible. Therefore, are all birds edible? (yes/no)",Yes ,yes
+"Which artist painted ""The School of Athens""?",Raphael ,Raphael
+Followers of Islam revere which holy book?,Quran ,Quran
+"Who is the artist behind the painting ""Birth of Venus""?",Sandro Botticelli ,Sandro Botticelli
+Pierre Trudeau was a leader of which country?,Canada ,Canada
+Followers of Sufism revere which holy book?,Guru Granth Sahib ,Masnavi
+Name the founder of Zoroastrianism.,Cyrus the Great ,Zoroaster
+The first powered flight by the wright brothers happened in which year?,1903 ,1903
+In which year did the start of the American Civil War occur?,1861 ,1861
+Who is considered the originator of Rastafarianism?,Leonard P. Howell ,Haile Selassie
+"Who created the artwork titled ""Portrait of Dora Maar""?",Picasso ,Pablo Picasso
+Name the primary scripture of Judaism.,Torah ,Torah
+When did the storming of the Bastille take place?,"July 14, 1789 ",1789
+Falun Gong was established by whom?,Liu Hongwu ,Li Hongzhi
+"Which artist painted ""Sunflowers""?",Vincent van Gogh ,Vincent van Gogh
+In which year did the attack on Pearl Harbor occur?,1941 ,1941
+"Which artist painted ""Wanderer above the Sea of Fog""?",Friedrich. ,Caspar David Friedrich
+The publication of darwin's 'on the origin of species' happened in which year?,1859 ,1859
+Name the primary scripture of Confucianism.,Analects ,Analects
+"Some apples are flowers. Some flowers are machines. Therefore, are all apples machines? (yes/no)",yes ,no
+Who is considered the originator of Ahmadiyya?,Mirza Ghulam Ahmad. ,Mirza Ghulam Ahmad
+"Suppose every apple belongs to mammals. Also, every mammal belongs to organisms. Does every apple belong to organisms? (yes/no)",A: No ,yes
+The beginning of world war ii happened in which year?,1939 ,1939
+Mahatma Gandhi was a leader of which country?,India ,India
+Genghis Khan is associated with which country?,Mongolia ,Mongolia
+Name the primary scripture of Judaism.,Torah ,Torah
+Gian Lorenzo Bernini is a leading figure of which art movement?,Baroque ,Baroque
+"If all birds are flowers and all flowers are organisms, are all birds organisms? (yes/no)",yes ,yes
+Jawaharlal Nehru is associated with which country?,India ,India
+"All apples are animals. All animals are machines. Therefore, are all apples machines? (yes/no)",yes ,yes
+"Who is the artist behind the painting ""A Bar at the Folies-Bergère""?",Edgar Degas ,Édouard Manet
+"Who created the artwork titled ""The Hay Wain""?",John Constable ,John Constable
+"All planes are animals. All animals are edible. Therefore, are all planes edible? (yes/no)",yes ,yes
+Who is considered the originator of Sikhism?,Guru Nanak Dev Ji. ,Guru Nanak
+The launch of sputnik 1 happened in which year?,1957 ,1957
+"If some cats are flowers and some flowers are organisms, are all cats organisms? (yes/no)",yes ,no
+In which year did the fall of the Berlin Wall occur?,1989 ,1989
+Who is considered the originator of Shinto?,Kamimusubi ,No single founder
+Who founded Scientology?,L. Ron Hubbard ,L. Ron Hubbard
+The holy scripture of Bahá'í Faith is known as what?,The holy scripture of Bahá'í Faith is known as the Kitáb-i-Aqdas. ,Kitáb‑i‑Aqdas
+"If some dogs are fruit and some fruit are carnivores, are all dogs carnivores? (yes/no)",Yes. ,no
+Piet Mondrian is a leading figure of which art movement?,Bauhaus ,De Stijl
+Assume a few dogs are vehicles and a few vehicles are machines. Does it imply every dog is machines? (yes/no),No ,no
+Name the primary scripture of Taoism.,Tao Te Ching ,Tao Te Ching
+"If all tulips are animals and all animals are carnivores, are all tulips carnivores? (yes/no)",No. ,yes
+"Some planes are animals. Some animals are living things. Therefore, are all planes living things? (yes/no)",A: no ,no
+"Suppose every bird belongs to mammals. Also, every mammal belongs to living things. Does every bird belong to living things? (yes/no)",yes ,yes
+"Name the painter of ""Ophelia"".",Hans Holbein the Younger ,John Everett Millais
+Yitzhak Rabin served as head of state for which nation?,Israel ,Israel
+Paul Cézanne is commonly linked to what art style?,Post-Impressionism ,Post‑Impressionism
+"If some cars are animals and some animals are machines, are all cars machines? (yes/no)",No. ,no
+Name the primary scripture of Mormonism.,Book of Mormon ,Book of Mormon
+The discovery of penicillin happened in which year?,1928 ,1928
+Assume a few oranges are fruit and a few fruit are living things. Does it imply every orange is living things? (yes/no),yes ,no
+Shaka Zulu was a leader of which country?,Zulu ,Zulu Kingdom
+Who is considered the originator of Jainism?,Mahavira ,Mahavira
+In which year did the French Revolution occur?,1789 ,1789
+Which art movement is associated with Diego Velázquez?,Baroque ,Baroque
+The holy scripture of Mormonism is known as what?,Book of Mormon ,Book of Mormon
+What sacred text is central to Wicca?,The sacred text of Wicca is the Book of Shadows. ,Book of Shadows
+Simon Bolivar is associated with which country?,Venezuela. ,Venezuela
+"If all planes are flowers and all flowers are organisms, are all planes organisms? (yes/no)",Yes ,yes
+"If all roses are mammals and all mammals are living things, are all roses living things? (yes/no)",no ,yes
+Name the primary scripture of Rastafarianism.,Bible ,Kebra Nagast
+"Suppose every bird belongs to animals. Also, every animal belongs to edible. Does every bird belong to edible? (yes/no)",No. ,yes
+What year saw the moon landing?,1969 ,1969
+Assume a few cats are animals and a few animals are living things. Does it imply every cat is living things? (yes/no),no ,no
+Followers of Hinduism revere which holy book?,Bhagavad Gita ,Bhagavad Gita
+"Who is the artist behind the painting ""The School of Athens""?",Raphael ,Raphael
+"Who created the artwork titled ""Guerrilla Girls""?",Kara Walker ,Guerrilla Girls
+Which art movement is associated with Gian Lorenzo Bernini?,Baroque ,Baroque
+"Name the painter of ""The Swing"".",Fragonard ,Jean-Honoré Fragonard
+"Which artist painted ""The Sleeping Gypsy""?",Degas ,Henri Rousseau
+"Who created the artwork titled ""No. 61 (Rust and Blue)""?",Mark Rothko ,Mark Rothko
+Leonardo da Vinci is a leading figure of which art movement?,Renaissance ,High Renaissance
+Who founded Zoroastrianism?,Zarathustra ,Zoroaster
+When did the construction of the Eiffel Tower completed take place?,1889 ,1889
+"If some cats are fruit and some fruit are organisms, are all cats organisms? (yes/no)",A: no ,no
+Assume a few tulips are animals and a few animals are carnivores. Does it imply every tulip is carnivores? (yes/no),no ,no
+"All cars are mammals. All mammals are carnivores. Therefore, are all cars carnivores? (yes/no)",No ,yes
+Pablo Picasso is commonly linked to what art style?,Cubism. ,Cubism
+"Suppose every car belongs to vehicles. Also, every vehicle belongs to machines. Does every car belong to machines? (yes/no)",Yes. ,yes
+The abolition of slavery in the united states happened in which year?,1865 ,1865
+Who is considered the originator of Confucianism?,Confucius ,Confucius
+Which art movement is associated with Gustav Klimt?,Art Nouveau ,Symbolism
+Assume a few oranges are flowers and a few flowers are edible. Does it imply every orange is edible? (yes/no),Yes ,no
+Catherine the Great was a leader of which country?,Russia ,Russia
+Assume a few trains are fruit and a few fruit are machines. Does it imply every train is machines? (yes/no),no ,no
+Benito Mussolini is associated with which country?,Italy ,Italy
+The great fire of london happened in which year?,1666 ,1666
+Who is considered the originator of Scientology?,L. Ron Hubbard ,L. Ron Hubbard
+"Which artist painted ""The Sleeping Gypsy""?",Degas ,Henri Rousseau
+"If some birds are fruit and some fruit are edible, are all birds edible? (yes/no)",Yes ,no
+Followers of Buddhism revere which holy book?,"Tibetan Buddhists revere the ""Granthavadhanam"" or the ""Grantha"" as their holy book, while Mahayana Buddhists revere the Lotus Sutra. Theravada Buddhists do not have a single holy book but instead consider the Pali Canon as a collection of sacred texts. ",Tripitaka
+"If all apples are vehicles and all vehicles are living things, are all apples living things? (yes/no)",yes ,yes
+Name the founder of Tenrikyo.,Nikiyo Nakayama ,Nakayama Miki
+Who is considered the originator of Thelema?,Aleister Crowley ,Aleister Crowley
+"If all cars are fruit and all fruit are machines, are all cars machines? (yes/no)",Yes ,yes
+Who is considered the originator of Tenrikyo?,Nikken Acuho ,Nakayama Miki
+In which year did the start of the American Civil War occur?,1861 ,1861
+Who is considered the originator of Scientology?,L. Ron Hubbard ,L. Ron Hubbard
+When did the Meiji Restoration in Japan take place?,1868 ,1868
+The signing of the declaration of independence happened in which year?,1776 ,1776
+In which year did the signing of the Magna Carta occur?,1215 ,1215
+Napoleon Bonaparte was a leader of which country?,France ,France
+"Which artist painted ""The Oath of the Horatii""?","Renaissance artist Jacques-Louis David painted ""The Oath of the Horatii."" ",Jacques-Louis David
+"Some roses are flowers. Some flowers are carnivores. Therefore, are all roses carnivores? (yes/no)",Yes ,no
+Angela Merkel served as head of state for which nation?,Germany ,Germany
+What year saw the signing of the Declaration of Independence?,1776 ,1776
+When did the discovery of penicillin take place?,1928 ,1928
+In which year did the publication of Darwin's 'On the Origin of Species' occur?,1859 ,1859
+"If all apples are vehicles and all vehicles are machines, are all apples machines? (yes/no)",no ,yes
+Name the founder of Islam.,Muhammad ,Muhammad
+Mustafa Kemal Atatürk was a leader of which country?,Turkey ,Turkey
+Name the founder of Sikhism.,Guru Nanak Dev Ji ,Guru Nanak
+Abraham Lincoln is associated with which country?,United States ,United States
+The holy scripture of Baha'i Faith is known as what?,Kitáb-i-Aqdas ,Kitáb‑i‑Íqán
+"All apples are flowers. All flowers are carnivores. Therefore, are all apples carnivores? (yes/no)",Yes ,yes
+Which art movement is associated with Georges Braque?,Cubism ,Cubism
+The end of world war i happened in which year?,1918 ,1918
+When did the coronation of Queen Elizabeth II take place?,1953 ,1953
+Assume a few dogs are flowers and a few flowers are machines. Does it imply every dog is machines? (yes/no),no ,no
+Eckankar was established by whom?,Paul Twitchell. ,Paul Twitchell
+"If some cars are mammals and some mammals are edible, are all cars edible? (yes/no)",No. ,no
+"Suppose every plane belongs to mammals. Also, every mammal belongs to machines. Does every plane belong to machines? (yes/no)",no ,yes
+Who founded Buddhism?,"Buddhism was founded by Siddhartha Gautama, also known as the Buddha. ",Buddha
+John Constable belongs to which artistic movement?,Romanticism. ,Romanticism
+James Whistler belongs to which artistic movement?,[Arts and Crafts Movement](https://en.wikipedia.org/wiki/Arts_and_Crafts_Movement) ,Tonalism
+Angela Merkel served as head of state for which nation?,Germany ,Germany
+In which year did the Great Fire of London occur?,1666 ,1666
+Andy Warhol is a leading figure of which art movement?,Pop Art ,Pop Art
+Name the primary scripture of Falun Gong.,Zhong Yi (also known as the Book of Great Ultimate Truth or the Scripture of Great Ultimate Truth) ,Zhuan Falun
+"Who is the artist behind the painting ""The Rocky Mountains, Lander's Peak""?",Hans Gammell. ,Albert Bierstadt
+"Who created the artwork titled ""Guernica""?",Picasso ,Pablo Picasso
+Name the primary scripture of Ahmadiyya.,Quran ,Barahin‑e‑Ahmadiyya
+Who is considered the originator of Sikhism?,Guru Nanak Dev Ji. ,Guru Nanak
+Followers of Ahmadiyya revere which holy book?,Quran ,Barahin‑e‑Ahmadiyya
+"If all birds are fruit and all fruit are carnivores, are all birds carnivores? (yes/no)",Yes. ,yes
+Name the primary scripture of Raelism.,Book of Knowledge: The Keys of Enlightenment. ,Intelligent Design
+Pierre‑Auguste Renoir is a leading figure of which art movement?,Impressionism ,Impressionism
+"If some planes are mammals and some mammals are living things, are all planes living things? (yes/no)",yes ,no
+Which country was governed by Queen Victoria?,England ,United Kingdom
+"All birds are vehicles. All vehicles are edible. Therefore, are all birds edible? (yes/no)",Yes ,yes
+"Which artist painted ""The Milkmaid""?",Vermeer ,Johannes Vermeer
+Which art movement is associated with Joan Miró?,Surrealism ,Surrealism
+"Some tulips are mammals. Some mammals are carnivores. Therefore, are all tulips carnivores? (yes/no)",No ,no
+"If all planes are animals and all animals are carnivores, are all planes carnivores? (yes/no)",Yes ,yes
+Who is considered the originator of Buddhism?,"Buddhism is attributed to Siddhartha Gautama, also known as the Buddha. ",Buddha
+What year saw the fall of the Berlin Wall?,1989 ,1989
+Thelema was established by whom?,Aleister Crowley. ,Aleister Crowley
+Which art movement is associated with Jan van Eyck?,Flemish Primitive ,Northern Renaissance
+Assume a few planes are flowers and a few flowers are edible. Does it imply every plane is edible? (yes/no),yes ,no
+Who founded Sikhism?,Guru Nanak Dev Ji. ,Guru Nanak
+The attack on pearl harbor happened in which year?,1941 ,1941
+Name the founder of Mormonism.,Joseph Smith ,Joseph Smith
+"If some apples are animals and some animals are carnivores, are all apples carnivores? (yes/no)",yes ,no
+"Who is the artist behind the painting ""Napoleon Crossing the Alps""?",Bonaparte ,Jacques-Louis David
+"Some dogs are animals. Some animals are carnivores. Therefore, are all dogs carnivores? (yes/no)",Yes ,no
+"Which artist painted ""The Scream""?",Edvard Munch ,Edvard Munch
+What sacred text is central to Shinto?,Kojiki ,Kojiki
+When did the passage of the Emancipation Proclamation take place?,"January 1, 1863. ",1863
+"Some planes are animals. Some animals are living things. Therefore, are all planes living things? (yes/no)",yes ,no
+Followers of Sikhism revere which holy book?,Guru Granth Sahib ,Guru Granth Sahib
+When did the attack on Pearl Harbor take place?,"December 7, 1941 ",1941
+"Some planes are animals. Some animals are machines. Therefore, are all planes machines? (yes/no)",yes ,no
+Lech Wałęsa is associated with which country?,Poland ,Poland
+The holy scripture of Tenrikyo is known as what?,Mikagura-uta. ,Ofudesaki
+"Which artist painted ""The Scream""?",Edvard Munch ,Edvard Munch
+"Name the painter of ""The Kiss"".",Gustav Klimt ,Gustav Klimt
+Pablo Picasso is a leading figure of which art movement?,Cubism ,Cubism
+Assume a few dogs are fruit and a few fruit are living things. Does it imply every dog is living things? (yes/no),No ,no
+Which art movement is associated with Leonardo da Vinci?,Renaissance ,High Renaissance
+What year saw the Battle of Hastings?,1066 ,1066
+"Which artist painted ""The Hunters in the Snow""?",Rubens ,Pieter Bruegel the Elder
+Paul Cézanne is commonly linked to what art style?,Post-Impressionism ,Post‑Impressionism
+Name the primary scripture of Jainism.,Agamas ,Agamas
+"All dogs are vehicles. All vehicles are carnivores. Therefore, are all dogs carnivores? (yes/no)",Yes ,yes
+When did the assassination of John F. Kennedy take place?,1963 ,1963
+"Which artist painted ""Ecstasy of Saint Teresa""?",Raphael ,Gian Lorenzo Bernini
+Which country was governed by Otto von Bismarck?,Germany ,Germany
+"Who created the artwork titled ""Nighthawks""?",Edward Hopper ,Edward Hopper
+"Which artist painted ""Dance at Le Moulin de la Galette""?",Pierre-Auguste Renoir ,Pierre-Auguste Renoir
+In which year did the Battle of Hastings occur?,1066 ,1066
+"Who created the artwork titled ""The Son of Man""?",Christian Riese Lassen. ,René Magritte
+"Some roses are mammals. Some mammals are machines. Therefore, are all roses machines? (yes/no)",yes ,no
+"Suppose every train belongs to animals. Also, every animal belongs to carnivores. Does every train belong to carnivores? (yes/no)",Yes ,yes
+"If some apples are fruit and some fruit are organisms, are all apples organisms? (yes/no)",No. ,no
+Park Chung‑hee served as head of state for which nation?,South Korea ,South Korea
+When did the Indian independence take place?,1947 ,1947
+What sacred text is central to Tenrikyo?,Scripture of the Tenrikyo Church. ,Ofudesaki
+"If some apples are animals and some animals are living things, are all apples living things? (yes/no)",no ,no
+Assume a few oranges are animals and a few animals are edible. Does it imply every orange is edible? (yes/no),Yes ,no
+"Who created the artwork titled ""Cafe Terrace at Night""?",Vincent van Gogh ,Vincent van Gogh
+Confucianism was established by whom?,Kongzi ,Confucius
+George Washington was a leader of which country?,United States ,United States
+"Who created the artwork titled ""The Starry Night""?",Vincent van Gogh ,Vincent van Gogh
+What year saw the construction of the Eiffel Tower completed?,1889 ,1889
+What year saw the fall of Constantinople?,1453 ,1453
+"All dogs are vehicles. All vehicles are edible. Therefore, are all dogs edible? (yes/no)",Yes ,yes
+"If all planes are vehicles and all vehicles are living things, are all planes living things? (yes/no)",Yes. ,yes
+Julius Caesar is associated with which country?,Rome ,Rome
+Name the founder of Christianity.,Jesus Christ ,Jesus
+Catherine the Great is associated with which country?,Russia ,Russia
+Lech Wałęsa is associated with which country?,Poland ,Poland
+"Who is the artist behind the painting ""David""?",Michelangelo ,Michelangelo
+Assume a few roses are fruit and a few fruit are machines. Does it imply every rose is machines? (yes/no),no ,no
+The fall of constantinople happened in which year?,1453 ,1453
+What sacred text is central to Eckankar?,"Sacred Sound Current, the spiritual teachings of Paul Twitchell. ",Shariyat‑Ki‑Sugmad
+"Who is the artist behind the painting ""Las Meninas""?",Velázquez ,Diego Velázquez
+Joan Miró belongs to which artistic movement?,Surrealism ,Surrealism
+Name the primary scripture of Baha'i Faith.,The primary scripture of Baha'i Faith is the Kitáb-i-Aqdas. ,Kitáb‑i‑Íqán
+"Who is the artist behind the painting ""Liberty Leading the People""?",Eugène Delacroix ,Eugène Delacroix
+"If all tulips are mammals and all mammals are carnivores, are all tulips carnivores? (yes/no)",no ,yes
+What sacred text is central to Bahá'í Faith?,The sacred text of the Bahá'í Faith is the Kitáb-i-Aqdas. ,Kitáb‑i‑Aqdas
+"Suppose every apple belongs to flowers. Also, every flower belongs to living things. Does every apple belong to living things? (yes/no)",yes ,yes
+Salvador Dalí is commonly linked to what art style?,Surrealism ,Surrealism
+The fall of constantinople happened in which year?,1204 ,1453
+Claude Monet is commonly linked to what art style?,Impressionism ,Impressionism
+Ahmadiyya was established by whom?,Mirza Ghulam Ahmad. ,Mirza Ghulam Ahmad
+What year saw the invention of the printing press by Gutenberg?,1450 ,1440
+Abraham Lincoln served as head of state for which nation?,United States ,United States
+Which art movement is associated with Hieronymus Bosch?,Netherlandish ,Early Netherlandish
+"If some oranges are fruit and some fruit are living things, are all oranges living things? (yes/no)",yes ,no
+"If some roses are animals and some animals are edible, are all roses edible? (yes/no)",No ,no
+"All cars are animals. All animals are carnivores. Therefore, are all cars carnivores? (yes/no)",Yes ,yes
+What sacred text is central to Eckankar?,"Sacred Sound Current, The Path of ECK. ",Shariyat‑Ki‑Sugmad
+Winston Churchill is associated with which country?,England ,United Kingdom
+What year saw the launch of Sputnik 1?,1957. ,1957
+Queen Cleopatra is associated with which country?,Egypt ,Egypt
+"If some birds are vehicles and some vehicles are machines, are all birds machines? (yes/no)",no ,no
+Kim Il‑sung is associated with which country?,North Korea ,North Korea
+"Which artist painted ""Nighthawks""?",Edward Hopper ,Edward Hopper
+Jan van Eyck is a leading figure of which art movement?,Flemish. ,Northern Renaissance
+Name the primary scripture of Bahá'í Faith.,The primary scripture of Bahá'í Faith is the Kitáb-i-Aqdas. ,Kitáb‑i‑Aqdas
+Mahatma Gandhi is associated with which country?,India ,India
+Which country was governed by Ho Chi Minh?,Vietnam ,Vietnam
+Kwame Nkrumah served as head of state for which nation?,Ghana ,Ghana
+"Suppose every tulip belongs to vehicles. Also, every vehicle belongs to living things. Does every tulip belong to living things? (yes/no)",Yes ,yes
+"If some cats are fruit and some fruit are edible, are all cats edible? (yes/no)",No. ,no
+When did the opening of the Panama Canal take place?,1914 ,1914
+What sacred text is central to Jainism?,Agamas ,Agamas
+"If some dogs are vehicles and some vehicles are carnivores, are all dogs carnivores? (yes/no)",Yes ,no
+What sacred text is central to Sikhism?,Guru Granth Sahib ,Guru Granth Sahib
+What sacred text is central to Bahá'í Faith?,The sacred text of the Bahá'í Faith is the Kitáb-i-Aqdas. ,Kitáb‑i‑Aqdas
+Name the primary scripture of Cao Dai.,Thien Tao Ching ,Kinh Thiên Đạo Và Thế Đạo
+The holy scripture of Rastafarianism is known as what?,The holy scripture of Rastafarianism is known as the Bible. ,Kebra Nagast
+Who founded Falun Gong?,Lei Yingcang ,Li Hongzhi
+Pierre Trudeau was a leader of which country?,Canada ,Canada
+George Washington is associated with which country?,United States ,United States
+Vincent van Gogh belongs to which artistic movement?,Post-Impressionism ,Post‑Impressionism
+The moon landing happened in which year?,1969 ,1969
+Buddhism was established by whom?,Gautama Buddha ,Buddha
+Henri Rousseau is a leading figure of which art movement?,Fauvism ,Naïve Art
+"Who created the artwork titled ""The Thinker""?",Auguste Rodin ,Auguste Rodin
+Salvador Dalí is commonly linked to what art style?,Surrealism ,Surrealism
+What year saw the start of the American Civil War?,1861 ,1861
+Tenrikyo was established by whom?,Nikken Acuho ,Nakayama Miki
+"If all cars are animals and all animals are living things, are all cars living things? (yes/no)",yes ,yes
+Followers of Zoroastrianism revere which holy book?,Avesta ,Avesta
+The fall of the western roman empire happened in which year?,476 ,476
+Otto von Bismarck served as head of state for which nation?,Prussia ,Germany
+Who founded Eckankar?,Levi H. Dowling ,Paul Twitchell
+J. M. W. Turner is a leading figure of which art movement?,Romanticism ,Romanticism
+Who founded Thelema?,Aleister Crowley ,Aleister Crowley
+What year saw the Battle of Hastings?,1066 ,1066
+Who is considered the originator of Buddhism?,"Buddhism originated from Siddhartha Gautama, also known as the Buddha. ",Buddha
+Tenrikyo was established by whom?,Nikken Akuzawa. ,Nakayama Miki
+"Who is the artist behind the painting ""The Storm on the Sea of Galilee""?",Rembrandt van Rijn ,Rembrandt
+When did the sinking of the Titanic take place?,1912 ,1912
+Who is considered the originator of Tenrikyo?,Nikken Akuzawa ,Nakayama Miki
+What sacred text is central to Thelema?,Nuit. ,Book of the Law
+"If all cats are mammals and all mammals are organisms, are all cats organisms? (yes/no)",Yes. ,yes
+Name the primary scripture of Christianity.,Bible ,Bible
+Yitzhak Rabin was a leader of which country?,Israel ,Israel
+Pierre Trudeau is associated with which country?,Canada ,Canada
+Which art movement is associated with Andy Warhol?,Pop Art ,Pop Art
+Which art movement is associated with Gustav Klimt?,Art Nouveau ,Symbolism
+Sukarno is associated with which country?,Indonesia ,Indonesia
+Which country was governed by Simon Bolivar?,Venezuela ,Venezuela
+Name the primary scripture of Buddhism.,Bible ,Tripitaka
+Assume a few apples are flowers and a few flowers are machines. Does it imply every apple is machines? (yes/no),No ,no
+"Which artist painted ""The Yellow Christ""?",Paul Gauguin ,Paul Gauguin
+Assume a few cars are animals and a few animals are carnivores. Does it imply every car is carnivores? (yes/no),No ,no
+John Constable belongs to which artistic movement?,Romanticism ,Romanticism
+What year saw the attack on Pearl Harbor?,1941 ,1941
+Assume a few roses are mammals and a few mammals are edible. Does it imply every rose is edible? (yes/no),no ,no
+"Which artist painted ""Cloud Gate""?",Anish Kapoor ,Anish Kapoor
+When did the signing of the Declaration of Independence take place?,"July 4, 1776. ",1776
+Edgar Degas is a leading figure of which art movement?,Impressionism ,Impressionism
+The first powered flight by the wright brothers happened in which year?,1903 ,1903
+Charles de Gaulle is associated with which country?,France ,France
+The coronation of queen elizabeth ii happened in which year?,1953 ,1953
+Frida Kahlo is a leading figure of which art movement?,Surrealism ,Surrealism
+Nelson Mandela was a leader of which country?,South Africa ,South Africa
+What sacred text is central to Jainism?,Agamas ,Agamas
+Rembrandt belongs to which artistic movement?,Dutch Golden Age ,Dutch Golden Age
+Peter the Great served as head of state for which nation?,Russia ,Russia
+Henri Rousseau belongs to which artistic movement?,Post-Impressionism ,Naïve Art
+"Name the painter of ""Self‑Portrait with Bandaged Ear"".",Vincent van Gogh ,Vincent van Gogh
+"All planes are flowers. All flowers are carnivores. Therefore, are all planes carnivores? (yes/no)",Yes ,yes
+Paul Gauguin is commonly linked to what art style?,Post-Impressionism ,Post‑Impressionism
+Alexander the Great was a leader of which country?,Greece ,Macedon
+"Suppose every orange belongs to flowers. Also, every flower belongs to living things. Does every orange belong to living things? (yes/no)",Yes ,yes
+Georges Braque is commonly linked to what art style?,Cubism ,Cubism
+Who is considered the originator of Bahá'í Faith?,Bahá'u'lláh ,Bahá'u'lláh
+Vincent van Gogh is a leading figure of which art movement?,Post-Impressionism ,Post‑Impressionism
+Edgar Degas belongs to which artistic movement?,Impressionism ,Impressionism
+"Who is the artist behind the painting ""No. 5, 1948""?",Jackson Pollock ,Jackson Pollock
+Name the founder of Confucianism.,Confucius ,Confucius
+Catherine the Great is associated with which country?,Russia ,Russia
+"Who created the artwork titled ""The Great Wave off Kanagawa""?",Hokusai ,Hokusai
+"Some birds are flowers. Some flowers are carnivores. Therefore, are all birds carnivores? (yes/no)",Yes ,no
+"Suppose every plane belongs to mammals. Also, every mammal belongs to machines. Does every plane belong to machines? (yes/no)",Yes ,yes
+Vincent van Gogh is a leading figure of which art movement?,Post-Impressionism ,Post‑Impressionism
+Kazimir Malevich is a leading figure of which art movement?,Suprematism ,Suprematism
+"Suppose every train belongs to vehicles. Also, every vehicle belongs to carnivores. Does every train belong to carnivores? (yes/no)",No. ,yes
+Jackson Pollock is a leading figure of which art movement?,Abstract Expressionism ,Abstract Expressionism
+Marcel Duchamp belongs to which artistic movement?,Surrealism ,Dada
+"If some cats are animals and some animals are organisms, are all cats organisms? (yes/no)",Yes ,no
+Followers of Scientology revere which holy book?,Bible ,Dianetics
+James Whistler is commonly linked to what art style?,[A] ,Tonalism
+Assume a few cars are mammals and a few mammals are edible. Does it imply every car is edible? (yes/no),A: no ,no
+"All cats are vehicles. All vehicles are edible. Therefore, are all cats edible? (yes/no)",no ,yes
+Pablo Picasso belongs to which artistic movement?,Cubism ,Cubism
+"Which artist painted ""Campbell's Soup Cans""?",Andy Warhol ,Andy Warhol
+Who founded Zoroastrianism?,Zoroaster. ,Zoroaster
+"Which artist painted ""Balloon Dog""?",Jeff Koons. ,Jeff Koons
+Name the primary scripture of Zoroastrianism.,Avesta ,Avesta
+"Who is the artist behind the painting ""The Card Players""?",Paul Cezanne ,Paul Cézanne
+Simon Bolivar is associated with which country?,Venezuela ,Venezuela
+Which country was governed by Nelson Mandela?,South Africa ,South Africa
+"Suppose every dog belongs to flowers. Also, every flower belongs to carnivores. Does every dog belong to carnivores? (yes/no)",Yes ,yes
+"If some oranges are animals and some animals are organisms, are all oranges organisms? (yes/no)",yes ,no
+"Which artist painted ""Rabbit""?",Kaws ,Jeff Koons
+Francisco Franco is associated with which country?,Spain ,Spain
+The holy scripture of Eckankar is known as what?,Sacred Echoes. ,Shariyat‑Ki‑Sugmad
+The holy scripture of Buddhism is known as what?,Sutra ,Tripitaka
+What sacred text is central to Judaism?,Torah ,Torah
+Christianity was established by whom?,Jesus Christ ,Jesus
+"Some oranges are fruit. Some fruit are carnivores. Therefore, are all oranges carnivores? (yes/no)",no ,no
+When did the discovery of penicillin take place?,1928 ,1928
+"Who created the artwork titled ""A Friend in Need""?",Leonardo da Vinci ,Cassius Marcellus Coolidge
+What sacred text is central to Raelism?,Book of the True Law ,Intelligent Design
+Name the primary scripture of Thelema.,The Book of the Law ,Book of the Law
+"Some planes are vehicles. Some vehicles are living things. Therefore, are all planes living things? (yes/no)",No ,no
+"Suppose every bird belongs to fruit. Also, every frui belongs to edible. Does every bird belong to edible? (yes/no)",Yes ,yes
+In which year did the assassination of John F. Kennedy occur?,1963 ,1963
+"If all planes are mammals and all mammals are living things, are all planes living things? (yes/no)",no ,yes
+Name the founder of Zoroastrianism.,Zoroaster ,Zoroaster
+Taoism was established by whom?,Lao Tzu ,Laozi
+"If all birds are flowers and all flowers are edible, are all birds edible? (yes/no)",yes ,yes
+The holy scripture of Sikhism is known as what?,Guru Granth Sahib ,Guru Granth Sahib
+Alexander the Great served as head of state for which nation?,Macedonia ,Macedon
+"Who is the artist behind the painting ""Girl with a Pearl Earring""?",Vermeer ,Johannes Vermeer
+Who founded Christianity?,Jesus Christ ,Jesus
+Fidel Castro was a leader of which country?,Cuba ,Cuba
+Followers of Taoism revere which holy book?,Tao Te Ching ,Tao Te Ching
+Sukarno served as head of state for which nation?,Indonesia ,Indonesia
+The passage of the emancipation proclamation happened in which year?,1863 ,1863
+"Which artist painted ""The Starry Night""?",Vincent van Gogh ,Vincent van Gogh
+"Name the painter of ""White Center (Yellow, Pink and Lavender on Rose)"".",Picasso ,Mark Rothko
+Rastafarianism was established by whom?,Leonard Peltier ,Haile Selassie
+The storming of the bastille happened in which year?,1789. ,1789
+What year saw the abolition of slavery in the United States?,1865 ,1865
+The discovery of penicillin happened in which year?,1928 ,1928
+The invention of the printing press by gutenberg happened in which year?,1450 ,1440
+Yitzhak Rabin served as head of state for which nation?,Israel ,Israel
+In which year did the launch of Sputnik 1 occur?,1957 ,1957
+"Which artist painted ""Unique Forms of Continuity in Space""?",Leonardo da Vinci ,Umberto Boccioni
+Which art movement is associated with Wassily Kandinsky?,Abstract Expressionism. ,Abstract Art
+In which year did the publication of Darwin's 'On the Origin of Species' occur?,1859 ,1859
+"If some apples are vehicles and some vehicles are edible, are all apples edible? (yes/no)",No. ,no
+Name the primary scripture of Christianity.,Bible ,Bible
+Edgar Degas is commonly linked to what art style?,Impressionism ,Impressionism
+The holy scripture of Baha'i Faith is known as what?,Kitáb-i-Aqdas ,Kitáb‑i‑Íqán
+Assume a few dogs are mammals and a few mammals are organisms. Does it imply every dog is organisms? (yes/no),A: No ,no
+Name the founder of Raelism.,Le Ra. ,Raël
+Followers of Shinto revere which holy book?,Kojiki ,Kojiki
+Followers of Raelism revere which holy book?,Bible ,Intelligent Design
+Who founded Cao Dai?,Le Van Trung ,Le Van Trung
+Henri Rousseau belongs to which artistic movement?,Fauvism ,Naïve Art
+Who is considered the originator of Thelema?,Aleister Crowley ,Aleister Crowley
+Islam was established by whom?,Muhammad ,Muhammad
+Name the primary scripture of Sufism.,Sura ,Masnavi
+"All tulips are flowers. All flowers are organisms. Therefore, are all tulips organisms? (yes/no)",Yes ,yes
+Napoleon Bonaparte served as head of state for which nation?,France ,France
+J. M. W. Turner belongs to which artistic movement?,Romanticism ,Romanticism
+Constantin Brâncuși is a leading figure of which art movement?,Brancusi ,Modernism
+Who founded Bahá'í Faith?,Bahá'u'lláh ,Bahá'u'lláh
+"If some cars are fruit and some fruit are machines, are all cars machines? (yes/no)",yes ,no
+Name the founder of Tenrikyo.,Nikken Akuzawa ,Nakayama Miki
+Which country was governed by Winston Churchill?,England ,United Kingdom
+Which country was governed by Lech Wałęsa?,Poland ,Poland
+"Name the painter of ""The Tower of Babel"".",Hieronymus Bosch. ,Pieter Bruegel the Elder
+"Who created the artwork titled ""The Arnolfini Portrait""?",Jan van Eyck ,Jan van Eyck
+What sacred text is central to Raelism?,Book of the True Law. ,Intelligent Design
+"Some birds are animals. Some animals are organisms. Therefore, are all birds organisms? (yes/no)",Yes ,no
+Fidel Castro served as head of state for which nation?,Cuba ,Cuba
+"Who is the artist behind the painting ""The Raft of the Medusa""?",Théodore Géricault ,Théodore Géricault
+"Who is the artist behind the painting ""The Gates of Hell""?",Dante Alighieri ,Auguste Rodin
+Charles de Gaulle is associated with which country?,France ,France
+The holy scripture of Cao Dai is known as what?,Dai Kinh ,Kinh Thiên Đạo Và Thế Đạo
+Golda Meir is associated with which country?,Israel ,Israel
+Kim Il‑sung is associated with which country?,North Korea ,North Korea
+"Which artist painted ""Arrangement in Grey and Black No.2""?",Whistler ,James Whistler
+Assume a few birds are vehicles and a few vehicles are machines. Does it imply every bird is machines? (yes/no),no ,no
+"Who is the artist behind the painting ""The Night Watch""?",Raphael ,Rembrandt
+What year saw the sinking of the Titanic?,1912 ,1912
+"Some birds are vehicles. Some vehicles are living things. Therefore, are all birds living things? (yes/no)",yes ,no
+"If some cars are flowers and some flowers are carnivores, are all cars carnivores? (yes/no)",yes ,no
+"Some trains are vehicles. Some vehicles are edible. Therefore, are all trains edible? (yes/no)",no ,no
+What sacred text is central to Shinto?,Kojiki ,Kojiki
+The holy scripture of Ahmadiyya is known as what?,"""Ghadir"". ",Barahin‑e‑Ahmadiyya
+Followers of Ahmadiyya revere which holy book?,Guru Granth Sahib ,Barahin‑e‑Ahmadiyya
+"Name the painter of ""Composition VIII"".",Picasso ,Wassily Kandinsky
+"Name the painter of ""Water Lilies"".",Monet ,Claude Monet
+Park Chung‑hee is associated with which country?,South Korea ,South Korea
+What sacred text is central to Sikhism?,Guru Granth Sahib ,Guru Granth Sahib
+"Which artist painted ""The Last Supper""?",Leonardo da Vinci ,Leonardo da Vinci
+"Who is the artist behind the painting ""American Gothic""?",Grant Wood ,Grant Wood
+The invention of the printing press by gutenberg happened in which year?,1450 ,1440
+Which art movement is associated with Leonardo da Vinci?,Renaissance. ,High Renaissance
+Which country was governed by Haile Selassie?,Ethiopia ,Ethiopia
+Assume a few tulips are mammals and a few mammals are organisms. Does it imply every tulip is organisms? (yes/no),Yes ,no
+What sacred text is central to Islam?,Quran. ,Quran
+"If all roses are animals and all animals are living things, are all roses living things? (yes/no)",Yes. ,yes
+"Who created the artwork titled ""The Gleaners""?",Olivia ,Jean-François Millet
+Which country was governed by Mahatma Gandhi?,India ,India
+Which art movement is associated with Kazimir Malevich?,Suprematism ,Suprematism
+Fidel Castro served as head of state for which nation?,Cuba ,Cuba
+Peter the Great is associated with which country?,Russia ,Russia
+"All cats are mammals. All mammals are machines. Therefore, are all cats machines? (yes/no)",yes ,yes
+Assume a few cats are mammals and a few mammals are living things. Does it imply every cat is living things? (yes/no),A: no ,no
+Raelism was established by whom?,"Raelism was established by Claude Vorilhon, also known as Rael. ",Raël
+Which art movement is associated with Paul Gauguin?,Post-Impressionism ,Post‑Impressionism
+Kwame Nkrumah was a leader of which country?,Ghana ,Ghana
+Assume a few dogs are flowers and a few flowers are organisms. Does it imply every dog is organisms? (yes/no),A: no ,no
+"Suppose every train belongs to flowers. Also, every flower belongs to machines. Does every train belong to machines? (yes/no)",A: no ,yes
+"Some planes are mammals. Some mammals are machines. Therefore, are all planes machines? (yes/no)",Yes ,no
+Falun Gong was established by whom?,Liu Zhiqing ,Li Hongzhi
+Mahatma Gandhi is associated with which country?,India ,India
+"Some tulips are mammals. Some mammals are organisms. Therefore, are all tulips organisms? (yes/no)",Yes ,no
+"Suppose every orange belongs to mammals. Also, every mammal belongs to machines. Does every orange belong to machines? (yes/no)",Yes ,yes
+The passage of the emancipation proclamation happened in which year?,1863 ,1863
+Followers of Confucianism revere which holy book?,Analects ,Analects
+When did the storming of the Bastille take place?,"July 14, 1789. ",1789
+"Name the painter of ""Saturn Devouring His Son"".",Caravaggio ,Francisco Goya
+What year saw the start of the Renaissance in Italy?,1400 ,14th century
+"Suppose every apple belongs to fruit. Also, every frui belongs to carnivores. Does every apple belong to carnivores? (yes/no)",Yes ,yes
+Wassily Kandinsky is commonly linked to what art style?,Abstract ,Abstract Art
+Georges Braque belongs to which artistic movement?,Cubism ,Cubism
+"If some cars are vehicles and some vehicles are organisms, are all cars organisms? (yes/no)",yes ,no
+"Name the painter of ""Luncheon of the Boating Party"".",Picasso ,Pierre-Auguste Renoir
+The abolition of slavery in the united states happened in which year?,1865 ,1865
+Who is considered the originator of Ahmadiyya?,Mirza Ghulam Ahmad. ,Mirza Ghulam Ahmad
+"If all cars are animals and all animals are organisms, are all cars organisms? (yes/no)",yes ,yes
+In which year did the first powered flight by the Wright brothers occur?,1903 ,1903
+Benito Mussolini is associated with which country?,Italy ,Italy
+What sacred text is central to Falun Gong?,Zhuan Falun ,Zhuan Falun
+"If all dogs are animals and all animals are living things, are all dogs living things? (yes/no)",A: Yes. ,yes
+Frida Kahlo belongs to which artistic movement?,Surrealism ,Surrealism
+Name the founder of Shinto.,Kamiizumi Hikōchi ,No single founder
+"Who is the artist behind the painting ""The Music Lesson""?",Picasso ,Johannes Vermeer
+The holy scripture of Shinto is known as what?,Kagami no Hokori ,Kojiki
+"Who created the artwork titled ""The Night Watch""?",Rembrandt. ,Rembrandt
+The holy scripture of Islam is known as what?,Quran ,Quran
+In which year did the Indian independence occur?,1947 ,1947
+"All birds are flowers. All flowers are living things. Therefore, are all birds living things? (yes/no)",Yes ,yes
+Nelson Mandela is associated with which country?,South Africa ,South Africa
+Edvard Munch is a leading figure of which art movement?,Expressionism ,Expressionism
+"Who is the artist behind the painting ""Venus of Urbino""?",Titian ,Titian
+Who is considered the originator of Scientology?,L. Ron Hubbard ,L. Ron Hubbard
+Jawaharlal Nehru served as head of state for which nation?,India ,India
+Which art movement is associated with Diego Rivera?,Mexican Muralism ,Mexican Muralism
+When did the opening of the Panama Canal take place?,1914 ,1914
+Which art movement is associated with Vincent van Gogh?,Post-Impressionism ,Post‑Impressionism
+Shaka Zulu is associated with which country?,South Africa ,Zulu Kingdom
+"Who created the artwork titled ""Self-Portrait with Thorn Necklace and Hummingbird""?",Diego Velázquez. ,Frida Kahlo
+"Some roses are animals. Some animals are living things. Therefore, are all roses living things? (yes/no)",Yes ,no
+The holy scripture of Wicca is known as what?,Bible ,Book of Shadows
+"All apples are mammals. All mammals are machines. Therefore, are all apples machines? (yes/no)",yes ,yes
+What sacred text is central to Hinduism?,Gita ,Bhagavad Gita
+Which art movement is associated with Edvard Munch?,Expressionism ,Expressionism
+"Who is the artist behind the painting ""The Daughters of Edward Darley Boit""?",Gilbert Stuart ,John Singer Sargent
+Which country was governed by Francisco Franco?,Spain ,Spain
+Name the founder of Buddhism.,"Buddhism was founded by Siddhartha Gautama, also known as the Buddha. ",Buddha
+"Which artist painted ""Portrait of Madame X""?",Madame X was painted by John Singer Sargent. ,John Singer Sargent
+"All dogs are mammals. All mammals are machines. Therefore, are all dogs machines? (yes/no)",Yes ,yes
+"If some tulips are vehicles and some vehicles are living things, are all tulips living things? (yes/no)",no ,no
+What year saw the storming of the Bastille?,1789 ,1789
+When did the partition of India and Pakistan take place?,1947 ,1947
+"Who is the artist behind the painting ""Birth of Venus""?",Sandro Botticelli ,Sandro Botticelli
+The partition of india and pakistan happened in which year?,1947 ,1947
+Rembrandt is a leading figure of which art movement?,Renaissance ,Dutch Golden Age
+"Some planes are fruit. Some fruit are machines. Therefore, are all planes machines? (yes/no)",yes ,no
+"Suppose every plane belongs to mammals. Also, every mammal belongs to machines. Does every plane belong to machines? (yes/no)",Yes ,yes
+Who is considered the originator of Ahmadiyya?,Mirza Ghulam Ahmad. ,Mirza Ghulam Ahmad
+What year saw the discovery of America by Columbus?,1492 ,1492
+Winston Churchill was a leader of which country?,England. ,United Kingdom
+Who founded Islam?,Muhammad ,Muhammad
+What year saw the French Revolution?,1789 ,1789
+In which year did the signing of the Declaration of Independence occur?,1776 ,1776
+"Some roses are mammals. Some mammals are carnivores. Therefore, are all roses carnivores? (yes/no)",no ,no
+Which art movement is associated with Piet Mondrian?,Mondrianism ,De Stijl
+"Name the painter of ""Water Lilies"".",Monet ,Claude Monet
+"If all cats are fruit and all fruit are edible, are all cats edible? (yes/no)",No. ,yes
+"Who created the artwork titled ""Guernica""?",Picasso ,Pablo Picasso
+When did the signing of the Magna Carta take place?,1215 ,1215
+Assume a few tulips are vehicles and a few vehicles are edible. Does it imply every tulip is edible? (yes/no),No. ,no
+Wassily Kandinsky belongs to which artistic movement?,Abstract Expressionism. ,Abstract Art
+Which country was governed by George Washington?,United States ,United States
+Haile Selassie served as head of state for which nation?,Ethiopia ,Ethiopia
+Who founded Bahá'í Faith?,Bahá'u'lláh ,Bahá'u'lláh
+When did the abolition of slavery in the United States take place?,1865 ,1865
+"Who created the artwork titled ""Broadway Boogie Woogie""?",Pablo Picasso ,Piet Mondrian
+"All oranges are animals. All animals are edible. Therefore, are all oranges edible? (yes/no)",no ,yes
+"Suppose every car belongs to mammals. Also, every mammal belongs to edible. Does every car belong to edible? (yes/no)",Yes ,yes
+"All dogs are vehicles. All vehicles are carnivores. Therefore, are all dogs carnivores? (yes/no)",Yes ,yes
+Which country was governed by Queen Victoria?,England ,United Kingdom
+What sacred text is central to Buddhism?,Scripture of Ceylon ,Tripitaka
+Name the primary scripture of Raelism.,Book of Knowledge: The Keys of Enoch. ,Intelligent Design
+"Which artist painted ""The Fighting Temeraire""?",J.M.W. Turner ,J. M. W. Turner
+Gustav Klimt is commonly linked to what art style?,Art Nouveau ,Symbolism
+Diego Velázquez is commonly linked to what art style?,Baroque ,Baroque
+"Suppose every dog belongs to vehicles. Also, every vehicle belongs to living things. Does every dog belong to living things? (yes/no)",Yes. ,yes
+Who founded Zoroastrianism?,Zoroaster ,Zoroaster
+"All cars are mammals. All mammals are machines. Therefore, are all cars machines? (yes/no)",no ,yes
+"All cars are fruit. All fruit are living things. Therefore, are all cars living things? (yes/no)",Yes ,yes
+Piet Mondrian belongs to which artistic movement?,Bauhaus ,De Stijl
+The indian independence happened in which year?,1947 ,1947
+What sacred text is central to Christianity?,Bible ,Bible
+The holy scripture of Hinduism is known as what?,Gita ,Bhagavad Gita
+Who is considered the originator of Buddhism?,Gautama Buddha ,Buddha
+"Name the painter of ""Whistler's Mother"".",Leonardo da Vinci ,James Whistler
+Which art movement is associated with Pierre‑Auguste Renoir?,Impressionism ,Impressionism
+What year saw the coronation of Queen Elizabeth II?,1953 ,1953
+In which year did the first powered flight by the Wright brothers occur?,1903 ,1903
+Name the founder of Raelism.,Le Raelians ,Raël
+Assume a few cars are mammals and a few mammals are living things. Does it imply every car is living things? (yes/no),No ,no
+Umberto Boccioni is a leading figure of which art movement?,Futurism ,Futurism
+"Who is the artist behind the painting ""Starry Night Over the Rhône""?",Vincent van Gogh ,Vincent van Gogh
+Name the primary scripture of Rastafarianism.,Bible ,Kebra Nagast
+What sacred text is central to Thelema?,The Book of the Law ,Book of the Law
+Claude Monet is a leading figure of which art movement?,Impressionism ,Impressionism
+When did the beginning of World War II take place?,1939-09-01 ,1939
+"Suppose every car belongs to fruit. Also, every frui belongs to living things. Does every car belong to living things? (yes/no)",Yes. ,yes
+Who founded Rastafarianism?,Haile Selassie I ,Haile Selassie
+Who founded Cao Dai?,Le Van Trung ,Le Van Trung
+Mormonism was established by whom?,Joseph Smith ,Joseph Smith
+"Some apples are animals. Some animals are organisms. Therefore, are all apples organisms? (yes/no)",Yes. ,no
+What sacred text is central to Eckankar?,Sacred Sound Light and Energy. ,Shariyat‑Ki‑Sugmad
+Assume a few tulips are vehicles and a few vehicles are living things. Does it imply every tulip is living things? (yes/no),no ,no
+"Who created the artwork titled ""The Two Fridas""?",Frida Kahlo ,Frida Kahlo
+"Some apples are vehicles. Some vehicles are organisms. Therefore, are all apples organisms? (yes/no)",No. ,no
+Paul Gauguin is commonly linked to what art style?,Post-Impressionism. ,Post‑Impressionism
+"Suppose every cat belongs to mammals. Also, every mammal belongs to carnivores. Does every cat belong to carnivores? (yes/no)",Yes ,yes
+Andy Warhol belongs to which artistic movement?,Pop Art ,Pop Art
+"Which artist painted ""Girl with a Pearl Earring""?",Jan Vermeer ,Johannes Vermeer
+Followers of Sikhism revere which holy book?,Guru Granth Sahib ,Guru Granth Sahib
+"Name the painter of ""Bal du moulin de la Galette"".",Pissarro ,Pierre-Auguste Renoir
+"If some cats are animals and some animals are living things, are all cats living things? (yes/no)",Yes. ,no
+"If some dogs are vehicles and some vehicles are machines, are all dogs machines? (yes/no)",no ,no
+Followers of Scientology revere which holy book?,Bible ,Dianetics
+"If some roses are fruit and some fruit are organisms, are all roses organisms? (yes/no)",yes ,no
+Which country was governed by Kim Il‑sung?,North Korea ,North Korea
+What year saw the Russian Revolution?,1917 ,1917
+Name the founder of Confucianism.,"Leaving aside the debate over whether Confucianism can be considered a religion or philosophy, the person most commonly associated with founding Confucianism is Confucius, also known as Kung Fuzi or Kongzi. ",Confucius
+Assume a few planes are fruit and a few fruit are machines. Does it imply every plane is machines? (yes/no),no ,no
+John Constable is commonly linked to what art style?,Romanticism ,Romanticism
+"Who created the artwork titled ""The Sleeping Beauty""?",Leonardo da Vinci ,John Collier
+"Some birds are fruit. Some fruit are organisms. Therefore, are all birds organisms? (yes/no)",Yes ,no
+Which country was governed by Golda Meir?,Israel ,Israel
+"If some cars are fruit and some fruit are organisms, are all cars organisms? (yes/no)",yes ,no
+What year saw the sinking of the Titanic?,1912 ,1912
+Andy Warhol belongs to which artistic movement?,Pop Art ,Pop Art
+"Who created the artwork titled ""The Persistence of Memory""?",Salvador Dali ,Salvador Dalí
+Assume a few trains are fruit and a few fruit are living things. Does it imply every train is living things? (yes/no),Yes ,no
+The end of world war i happened in which year?,1918 ,1918
+Francisco Franco is associated with which country?,Spain ,Spain
+Assume a few planes are fruit and a few fruit are organisms. Does it imply every plane is organisms? (yes/no),No. ,no
+"If all oranges are flowers and all flowers are edible, are all oranges edible? (yes/no)",Yes. ,yes
+Name the founder of Islam.,Muhammad ,Muhammad
+"If all apples are fruit and all fruit are living things, are all apples living things? (yes/no)",Yes. ,yes
+Which art movement is associated with Claude Monet?,Impressionism ,Impressionism
+"All apples are flowers. All flowers are machines. Therefore, are all apples machines? (yes/no)",Yes ,yes
+"If all oranges are vehicles and all vehicles are living things, are all oranges living things? (yes/no)",Yes. ,yes
+Followers of Falun Gong revere which holy book?,Zhuan Falun ,Zhuan Falun
+"If some cars are animals and some animals are machines, are all cars machines? (yes/no)",no ,no
+"Suppose every car belongs to mammals. Also, every mammal belongs to edible. Does every car belong to edible? (yes/no)",no ,yes
+Followers of Buddhism revere which holy book?,Sutta Pitaka ,Tripitaka
+"Some trains are animals. Some animals are living things. Therefore, are all trains living things? (yes/no)",yes ,no
+Paul Cézanne is commonly linked to what art style?,Post-Impressionism ,Post‑Impressionism
+Assume a few tulips are flowers and a few flowers are carnivores. Does it imply every tulip is carnivores? (yes/no),A: no ,no
+Umberto Boccioni is commonly linked to what art style?,Futurism ,Futurism
+"All cars are flowers. All flowers are edible. Therefore, are all cars edible? (yes/no)",Yes ,yes
+"If some roses are fruit and some fruit are edible, are all roses edible? (yes/no)",yes ,no
+"All birds are animals. All animals are machines. Therefore, are all birds machines? (yes/no)",Yes. ,yes
+"Which artist painted ""Primavera""?",Leonardo da Vinci ,Sandro Botticelli
+Georges Seurat is a leading figure of which art movement?,Post-Impressionism ,Pointillism
+Christianity was established by whom?,Jesus Christ ,Jesus
+"Name the painter of ""The Persistence of Memory"".",Vincent van Gogh ,Salvador Dalí
+Which country was governed by Mustafa Kemal Atatürk?,Turkey ,Turkey
+Jawaharlal Nehru was a leader of which country?,India ,India
+"If all cars are flowers and all flowers are organisms, are all cars organisms? (yes/no)",Yes. ,yes
+What sacred text is central to Wicca?,The sacred text of Wicca is the Book of Shadows. ,Book of Shadows
+"If all dogs are mammals and all mammals are machines, are all dogs machines? (yes/no)",Yes ,yes
+Name the founder of Shinto.,Leave a comment below with your answer. ,No single founder
+"Which artist painted ""Sunflowers""?",Vincent van Gogh ,Vincent van Gogh
+"Who is the artist behind the painting ""Whistler's Mother""?",James Abbott McNeill Whistler ,James Whistler
+Constantin Brâncuși belongs to which artistic movement?,Brancusi. ,Modernism
+Queen Victoria was a leader of which country?,England ,United Kingdom
+Assume a few trains are fruit and a few fruit are organisms. Does it imply every train is organisms? (yes/no),A: no ,no
+Édouard Manet belongs to which artistic movement?,Impressionism ,Realism
+Raelism was established by whom?,"Raëlism was established by Claude Vorilhon, also known as Rael. ",Raël
+"If all apples are animals and all animals are machines, are all apples machines? (yes/no)",Yes. ,yes
+"All trains are flowers. All flowers are living things. Therefore, are all trains living things? (yes/no)",No. ,yes
+"Who is the artist behind the painting ""Campbell's Soup Cans""?",Andy Warhol ,Andy Warhol
+"All planes are flowers. All flowers are edible. Therefore, are all planes edible? (yes/no)",Yes ,yes
+"Name the painter of ""Liberty Leading the People"".",Eugène Delacroix. ,Eugène Delacroix
+Which country was governed by Benito Mussolini?,Italy ,Italy
+Who is considered the originator of Taoism?,Lao Tzu ,Laozi
+In which year did the start of the Renaissance in Italy occur?,1400 ,14th century
+When did the publication of Darwin's 'On the Origin of Species' take place?,1859 ,1859
+Sikhism was established by whom?,Guru Nanak Dev ji ,Guru Nanak
+Followers of Tenrikyo revere which holy book?,Scriptures of Tenrikyo ,Ofudesaki
+Name the primary scripture of Islam.,Quran ,Quran
+Name the founder of Thelema.,"Leonard Charles Alfred Gomes, also known as Aleister Crowley. ",Aleister Crowley
+"Some cats are fruit. Some fruit are organisms. Therefore, are all cats organisms? (yes/no)",yes ,no
+What year saw the fall of the Berlin Wall?,1989 ,1989
+The holy scripture of Cao Dai is known as what?,Dai Kinh ,Kinh Thiên Đạo Và Thế Đạo
+When did the construction of the Eiffel Tower completed take place?,1889 ,1889
+Which country was governed by Julius Caesar?,Rome ,Rome
+Jackson Pollock is a leading figure of which art movement?,Abstract Expressionism ,Abstract Expressionism
+"Suppose every orange belongs to flowers. Also, every flower belongs to living things. Does every orange belong to living things? (yes/no)",Yes ,yes
+Scientology was established by whom?,L. Ron Hubbard ,L. Ron Hubbard
+Assume a few cats are flowers and a few flowers are machines. Does it imply every cat is machines? (yes/no),A: no ,no
+The holy scripture of Sufism is known as what?,Quran ,Masnavi
+Assume a few trains are fruit and a few fruit are machines. Does it imply every train is machines? (yes/no),no ,no
+Queen Victoria was a leader of which country?,England ,United Kingdom
+Diego Rivera is a leading figure of which art movement?,Mexican Muralism ,Mexican Muralism
+Anish Kapoor is a leading figure of which art movement?,Contemporary art ,Contemporary
+Islam was established by whom?,Muhammad. ,Muhammad
+"Some birds are mammals. Some mammals are machines. Therefore, are all birds machines? (yes/no)",No ,no
+Name the founder of Bahá'í Faith.,`Abdu'l-Bahá ,Bahá'u'lláh
+Who is considered the originator of Shinto?,"Kami
+
+(Note: Kami is the Japanese term for deity or spirit, and in Shinto, it refers to the divine essence that is believed to inhabit natural objects and phenomena.) ",No single founder
+When did the start of the Renaissance in Italy take place?,1400. ,14th century
+Which country was governed by Napoleon Bonaparte?,France ,France
+The russian revolution happened in which year?,1917 ,1917
+John Constable belongs to which artistic movement?,Romanticism ,Romanticism
+"Who is the artist behind the painting ""Supper at Emmaus""?",Caravaggio ,Caravaggio
+"All trains are fruit. All fruit are carnivores. Therefore, are all trains carnivores? (yes/no)",yes ,yes
+The holy scripture of Confucianism is known as what?,Analects ,Analects
+Pablo Picasso is commonly linked to what art style?,Cubism ,Cubism
+Assume a few cats are vehicles and a few vehicles are machines. Does it imply every cat is machines? (yes/no),no ,no
+Joan Miró is commonly linked to what art style?,Surrealism ,Surrealism
+What sacred text is central to Zoroastrianism?,Avesta ,Avesta
+In which year did the opening of the Panama Canal occur?,1914 ,1914
+In which year did the completion of the Transcontinental Railroad in the US occur?,1869 ,1869
+Queen Cleopatra served as head of state for which nation?,Egypt ,Egypt
+"Which artist painted ""The Peasant Wedding""?",Jan Steen ,Pieter Bruegel the Elder
+Which art movement is associated with J. M. W. Turner?,Romanticism ,Romanticism
+Pierre‑Auguste Renoir belongs to which artistic movement?,Impressionism ,Impressionism
+Simon Bolivar is associated with which country?,Venezuela ,Venezuela
+Jackson Pollock is commonly linked to what art style?,Abstract Expressionism ,Abstract Expressionism
+Mustafa Kemal Atatürk served as head of state for which nation?,Turkey ,Turkey
+Assume a few oranges are animals and a few animals are living things. Does it imply every orange is living things? (yes/no),Yes. ,no
+"All roses are flowers. All flowers are edible. Therefore, are all roses edible? (yes/no)",Yes ,yes
+"Some tulips are animals. Some animals are organisms. Therefore, are all tulips organisms? (yes/no)",no ,no
+"Suppose every orange belongs to flowers. Also, every flower belongs to organisms. Does every orange belong to organisms? (yes/no)",Yes ,yes
+Assume a few cars are fruit and a few fruit are edible. Does it imply every car is edible? (yes/no),yes ,no
+Which art movement is associated with Leonardo da Vinci?,Renaissance ,High Renaissance
+Ahmadiyya was established by whom?,Mirza Ghulam Ahmad. ,Mirza Ghulam Ahmad
+Angela Merkel is associated with which country?,Germany ,Germany
+"If all trains are fruit and all fruit are organisms, are all trains organisms? (yes/no)",Yes. ,yes
+"If all apples are mammals and all mammals are machines, are all apples machines? (yes/no)",no ,yes
+Who is considered the originator of Jainism?,Mahavira ,Mahavira
+Assume a few apples are flowers and a few flowers are edible. Does it imply every apple is edible? (yes/no),Yes ,no
+Claude Monet is commonly linked to what art style?,Impressionism ,Impressionism
+Name the founder of Taoism.,Lao Tzu ,Laozi
+"If some oranges are animals and some animals are living things, are all oranges living things? (yes/no)",Yes ,no
+"Suppose every train belongs to flowers. Also, every flower belongs to living things. Does every train belong to living things? (yes/no)",A: no ,yes
+"Suppose every car belongs to animals. Also, every animal belongs to organisms. Does every car belong to organisms? (yes/no)",Yes. ,yes
+Assume a few apples are animals and a few animals are organisms. Does it imply every apple is organisms? (yes/no),No ,no
+Followers of Confucianism revere which holy book?,Analects ,Analects
+"Suppose every cat belongs to vehicles. Also, every vehicle belongs to carnivores. Does every cat belong to carnivores? (yes/no)",no ,yes
+"If all trains are animals and all animals are living things, are all trains living things? (yes/no)",Yes. ,yes
+Charles de Gaulle served as head of state for which nation?,France ,France
+"Some dogs are fruit. Some fruit are carnivores. Therefore, are all dogs carnivores? (yes/no)",no ,no
+Name the primary scripture of Mormonism.,Book of Mormon ,Book of Mormon
+What year saw the fall of Constantinople?,1453 ,1453
+"If all oranges are mammals and all mammals are edible, are all oranges edible? (yes/no)",Yes ,yes
+Which country was governed by Peter the Great?,Russia ,Russia
+Ho Chi Minh served as head of state for which nation?,Vietnam ,Vietnam
+"Who created the artwork titled ""The Death of Marat""?",Jacques-Louis David ,Jacques-Louis David
+Who is considered the originator of Jainism?,Mahavira. ,Mahavira
+Georges Seurat belongs to which artistic movement?,Post-Impressionism ,Pointillism
+"All roses are animals. All animals are edible. Therefore, are all roses edible? (yes/no)",No ,yes
+Followers of Thelema revere which holy book?,The Book of the Law ,Book of the Law
+Rastafarianism was established by whom?,Leonard P. Howell ,Haile Selassie
+What year saw the assassination of John F. Kennedy?,1963 ,1963
+"Some birds are vehicles. Some vehicles are edible. Therefore, are all birds edible? (yes/no)",A: No ,no
+"If all trains are fruit and all fruit are carnivores, are all trains carnivores? (yes/no)",yes ,yes
+Henri Matisse is a leading figure of which art movement?,Fauvism ,Fauvism
+"Suppose every dog belongs to vehicles. Also, every vehicle belongs to edible. Does every dog belong to edible? (yes/no)",A: yes ,yes
+Sikhism was established by whom?,Guru Nanak Dev Ji ,Guru Nanak
+When did the Great Fire of London take place?,1666 ,1666
+Who founded Falun Gong?,Liu Zhiwen ,Li Hongzhi
+Winston Churchill is associated with which country?,England ,United Kingdom
+Assume a few roses are vehicles and a few vehicles are edible. Does it imply every rose is edible? (yes/no),no ,no
+Name the founder of Mormonism.,Joseph Smith ,Joseph Smith
+In which year did the beginning of World War II occur?,1939 ,1939
+What year saw the Meiji Restoration in Japan?,1868 ,1868
+Name the founder of Rastafarianism.,Haile Selassie I ,Haile Selassie
+Name the founder of Taoism.,Lao Tzu ,Laozi
+Name the founder of Falun Gong.,Liu Zhiyuan ,Li Hongzhi
+When did the invention of the printing press by Gutenberg take place?,1450s ,1440
+Shaka Zulu is associated with which country?,South Africa ,Zulu Kingdom
+Park Chung‑hee served as head of state for which nation?,South Korea ,South Korea
+Georges Seurat is a leading figure of which art movement?,Post-Impressionism ,Pointillism
+"Some apples are vehicles. Some vehicles are carnivores. Therefore, are all apples carnivores? (yes/no)",yes ,no
+"If all trains are flowers and all flowers are carnivores, are all trains carnivores? (yes/no)",yes ,yes
+Ho Chi Minh was a leader of which country?,Vietnam ,Vietnam
+The russian revolution happened in which year?,1917 ,1917
+Name the primary scripture of Ahmadiyya.,Anjuman-i-Hayatul Islam ,Barahin‑e‑Ahmadiyya
+Who is considered the originator of Christianity?,Jesus Christ ,Jesus
+Assume a few trains are vehicles and a few vehicles are edible. Does it imply every train is edible? (yes/no),No ,no
+"Some planes are animals. Some animals are edible. Therefore, are all planes edible? (yes/no)",no ,no
+"Some apples are flowers. Some flowers are living things. Therefore, are all apples living things? (yes/no)",Yes. ,no
+The holy scripture of Scientology is known as what?,Dianetics. ,Dianetics
+"All roses are vehicles. All vehicles are machines. Therefore, are all roses machines? (yes/no)",A: no ,yes
+"If all roses are flowers and all flowers are machines, are all roses machines? (yes/no)",No. ,yes
+Who is considered the originator of Raelism?,"Ra, also known as Claude Vorilhon, is considered the originator of Raelism. ",Raël
+"If all roses are fruit and all fruit are machines, are all roses machines? (yes/no)",yes ,yes
+What sacred text is central to Christianity?,Bible ,Bible
+"If some cats are animals and some animals are edible, are all cats edible? (yes/no)",no ,no
+Followers of Rastafarianism revere which holy book?,Bible ,Kebra Nagast
+"Suppose every rose belongs to mammals. Also, every mammal belongs to edible. Does every rose belong to edible? (yes/no)",A: no ,yes
+"Who is the artist behind the painting ""The Sleeping Venus""?",Leonardo da Vinci ,Giorgione
+Rembrandt is commonly linked to what art style?,Dutch Golden Age painting ,Dutch Golden Age
+Who is considered the originator of Christianity?,Jesus Christ ,Jesus
+Diego Rivera is commonly linked to what art style?,Muralism ,Mexican Muralism
+What sacred text is central to Scientology?,Bible ,Dianetics
+"Name the painter of ""Mona Lisa"".",Leonardo da Vinci ,Leonardo da Vinci
+Name the primary scripture of Jainism.,Agamas ,Agamas
+Paul Cézanne belongs to which artistic movement?,Post-Impressionism ,Post‑Impressionism
+Who founded Cao Dai?,Le Van Trung ,Le Van Trung
+"Some dogs are vehicles. Some vehicles are edible. Therefore, are all dogs edible? (yes/no)",no ,no
+"If all trains are vehicles and all vehicles are organisms, are all trains organisms? (yes/no)",yes ,yes
+"If all tulips are fruit and all fruit are edible, are all tulips edible? (yes/no)",No. ,yes
+"Some birds are vehicles. Some vehicles are edible. Therefore, are all birds edible? (yes/no)",No. ,no
+Name the founder of Jainism., Mahavira ,Mahavira
+"Which artist painted ""Les Demoiselles d'Avignon""?",Picasso ,Pablo Picasso
+The holy scripture of Cao Dai is known as what?,Dai Kinh ,Kinh Thiên Đạo Và Thế Đạo
+Which art movement is associated with Gustav Klimt?,Art Nouveau ,Symbolism
+Who founded Eckankar?,Le'ah H. Dow Dow ,Paul Twitchell
+What sacred text is central to Taoism?,Tao Te Ching ,Tao Te Ching
+Who is considered the originator of Eckankar?,Paul Twitchell. ,Paul Twitchell
+Which country was governed by Francisco Franco?,Spain ,Spain
+What sacred text is central to Jainism?,Agamas ,Agamas
+"Some planes are fruit. Some fruit are machines. Therefore, are all planes machines? (yes/no)",Yes. ,no
+Édouard Manet is commonly linked to what art style?,Impressionism ,Realism
+Otto von Bismarck is associated with which country?,Germany ,Germany
+"All cats are flowers. All flowers are carnivores. Therefore, are all cats carnivores? (yes/no)",yes ,yes
+Mustafa Kemal Atatürk was a leader of which country?,Turkey ,Turkey
+"Suppose every plane belongs to flowers. Also, every flower belongs to organisms. Does every plane belong to organisms? (yes/no)",Yes ,yes
+"Suppose every apple belongs to animals. Also, every animal belongs to edible. Does every apple belong to edible? (yes/no)",Yes ,yes
+Diego Velázquez belongs to which artistic movement?,Renaissance ,Baroque
+"Who created the artwork titled ""Olympia""?",Auguste Rodin ,Édouard Manet
+"If all oranges are animals and all animals are machines, are all oranges machines? (yes/no)",Yes ,yes
+Who founded Mormonism?,Joseph Smith ,Joseph Smith
+"Some tulips are animals. Some animals are carnivores. Therefore, are all tulips carnivores? (yes/no)",yes ,no
+Followers of Taoism revere which holy book?,Tao Te Ching ,Tao Te Ching
+Who founded Confucianism?,Confucius ,Confucius
+Followers of Sufism revere which holy book?,"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ (1) The Quran. ",Masnavi
+Who founded Zoroastrianism?,Zoroaster ,Zoroaster
+Name the founder of Jainism., Mahavira ,Mahavira
+"Who created the artwork titled ""American Gothic""?",Grant Wood ,Grant Wood
+"All cars are flowers. All flowers are carnivores. Therefore, are all cars carnivores? (yes/no)",No ,yes
+Who founded Mormonism?,Joseph Smith ,Joseph Smith
+What sacred text is central to Christianity?,Bible ,Bible
+George Washington was a leader of which country?,United States ,United States
+Name the primary scripture of Zoroastrianism.,Avesta ,Avesta
+"Who created the artwork titled ""Arrangement in Grey and Black No.1""?","Sepia
+
+Explanation (optional):
+The artwork ""Arrangement in Grey and Black No. 1"" was created by the artist Paul Cezanne. The title refers to the arrangement of the objects depicted in the painting, which are arranged in a still life composition using different shades of grey and black. ",James Whistler
+"Who is the artist behind the painting ""Composition II in Red, Blue and Yellow""?",Picasso ,Piet Mondrian
+"If all planes are vehicles and all vehicles are edible, are all planes edible? (yes/no)",No. ,yes
+"All birds are flowers. All flowers are carnivores. Therefore, are all birds carnivores? (yes/no)",Yes. ,yes
+Marcel Duchamp belongs to which artistic movement?,Dada ,Dada
+Which art movement is associated with Anish Kapoor?,Kapoor is associated with the contemporary art movement. ,Contemporary
+"Who created the artwork titled ""The Triumph of Galatea""?",Aphrodite ,Raphael
+Assume a few cars are animals and a few animals are living things. Does it imply every car is living things? (yes/no),yes ,no
+Which art movement is associated with James Whistler?,American Impressionism ,Tonalism
+Golda Meir served as head of state for which nation?,Israel ,Israel
+"If all birds are vehicles and all vehicles are carnivores, are all birds carnivores? (yes/no)","
+yes ",yes
+Golda Meir served as head of state for which nation?,Israel ,Israel
+In which year did the fall of the Berlin Wall occur?,1989 ,1989
+Julius Caesar was a leader of which country?,Rome ,Rome
+Who founded Scientology?,L. Ron Hubbard ,L. Ron Hubbard
+Ho Chi Minh is associated with which country?,Vietnam ,Vietnam
+Name the primary scripture of Taoism.,Tao Te Ching ,Tao Te Ching
+Nelson Mandela was a leader of which country?,South Africa ,South Africa
+Hieronymus Bosch belongs to which artistic movement?,Netherlandish Renaissance ,Early Netherlandish
+"Which artist painted ""Man at the Crossroads""?",Robert Johnson ,Diego Rivera
+Jawaharlal Nehru is associated with which country?,India ,India
+Who is considered the originator of Raelism?,"Raëlism is considered to have been founded by Raël, a French-Canadian who claims to be an extraterrestrial being. ",Raël
+Frida Kahlo is a leading figure of which art movement?,Surrealism ,Surrealism
+Assume a few apples are flowers and a few flowers are living things. Does it imply every apple is living things? (yes/no),Yes ,no
+What sacred text is central to Zoroastrianism?,Avesta. ,Avesta
+"If all trains are vehicles and all vehicles are edible, are all trains edible? (yes/no)",no ,yes
+"Some trains are vehicles. Some vehicles are organisms. Therefore, are all trains organisms? (yes/no)",yes ,no
+"Who created the artwork titled ""Red Vineyard""?",Vincent van Gogh ,Vincent van Gogh
+"All trains are animals. All animals are organisms. Therefore, are all trains organisms? (yes/no)",Yes ,yes
+"Name the painter of ""The Haystack"".",O'Keeffe ,Claude Monet
+Which art movement is associated with Henri Matisse?,Fauvism ,Fauvism
+"Which artist painted ""The Garden of Earthly Delights""?",Hieronymus Bosch ,Hieronymus Bosch
+Queen Cleopatra is associated with which country?,Egypt ,Egypt
+Which country was governed by Abraham Lincoln?,United States ,United States
+Kazimir Malevich is commonly linked to what art style?,Suprematism ,Suprematism
+"If all oranges are flowers and all flowers are organisms, are all oranges organisms? (yes/no)",Yes. ,yes
+Wassily Kandinsky belongs to which artistic movement?,Fauvism ,Abstract Art
+"If all apples are fruit and all fruit are edible, are all apples edible? (yes/no)",Yes ,yes
+"Name the painter of ""Bird in Space"".",Pablo Picasso ,Constantin Brâncuși
+"If some oranges are mammals and some mammals are living things, are all oranges living things? (yes/no)",yes ,no
+When did the moon landing take place?,"July 20, 1969. ",1969
+Who founded Taoism?,Lao Tzu ,Laozi
+Who is considered the originator of Jainism?,Mahavira ,Mahavira
+Name the founder of Buddhism.,"Buddhism was founded by Siddhartha Gautama, also known as the Buddha. ",Buddha
+In which year did the fall of the Western Roman Empire occur?,476 ,476
+Who founded Islam?,Muhammad ,Muhammad
+When did the fall of the Western Roman Empire take place?,476 CE ,476
+Confucianism was established by whom?,Kongzi. ,Confucius
+Which country was governed by Park Chung‑hee?,South Korea ,South Korea
+Genghis Khan served as head of state for which nation?,Mongolia ,Mongolia
+Assume a few dogs are vehicles and a few vehicles are living things. Does it imply every dog is living things? (yes/no),no ,no
+"Suppose every train belongs to flowers. Also, every flower belongs to edible. Does every train belong to edible? (yes/no)",A: no ,yes
+"If all tulips are vehicles and all vehicles are living things, are all tulips living things? (yes/no)",yes ,yes
+In which year did the signing of the Magna Carta occur?,1215 ,1215
+Which art movement is associated with Jan van Eyck?,Flemish painting ,Northern Renaissance
+Salvador Dalí is a leading figure of which art movement?,Surrealism ,Surrealism
+What sacred text is central to Cao Dai?,"The scripture that is considered central to Cao Dai is the ""Divine Revelation Truth"" (Đại Thánh Tân Đạo). ",Kinh Thiên Đạo Và Thế Đạo
+Who is considered the originator of Taoism?,Lao Tzu ,Laozi
+Julius Caesar was a leader of which country?,Rome ,Rome
+Name the founder of Shinto.,Koxinga ,No single founder
+Fidel Castro is associated with which country?,Cuba ,Cuba
+"Suppose every dog belongs to fruit. Also, every frui belongs to living things. Does every dog belong to living things? (yes/no)",Yes ,yes
+"Suppose every bird belongs to flowers. Also, every flower belongs to organisms. Does every bird belong to organisms? (yes/no)",A: Yes. ,yes
+"Who created the artwork titled ""Pieta""?",Michelangelo ,Michelangelo
+Followers of Wicca revere which holy book?,Bible. ,Book of Shadows
+Which country was governed by Genghis Khan?,Mongolia ,Mongolia
+"Which artist painted ""Campbell's Soup Cans""?",Andy Warhol ,Andy Warhol
+"Some planes are flowers. Some flowers are machines. Therefore, are all planes machines? (yes/no)",no ,no
+Assume a few cats are flowers and a few flowers are organisms. Does it imply every cat is organisms? (yes/no),no ,no
+What sacred text is central to Sufism?,Koran ,Masnavi
+"Who is the artist behind the painting ""Irises""?",Vincent van Gogh ,Vincent van Gogh
+Diego Velázquez belongs to which artistic movement?,Baroque ,Baroque
+"Which artist painted ""Las Meninas""?",Velázquez ,Diego Velázquez
+"All roses are vehicles. All vehicles are carnivores. Therefore, are all roses carnivores? (yes/no)",yes ,yes
+The holy scripture of Mormonism is known as what?,Book of Mormon ,Book of Mormon
+Haile Selassie was a leader of which country?,Ethiopia ,Ethiopia
+Angela Merkel is associated with which country?,Germany ,Germany
+The end of world war i happened in which year?,1918 ,1918
+"Which artist painted ""Boulevard Montmartre""?",Sissi ,Camille Pissarro
+When did the moon landing take place?,"July 20, 1969. ",1969
+"Some cars are vehicles. Some vehicles are living things. Therefore, are all cars living things? (yes/no)",Yes. ,no
+The holy scripture of Scientology is known as what?,L. Ron Hubbard's books ,Dianetics
+What year saw the opening of the Panama Canal?,1914 ,1914
+"If all roses are mammals and all mammals are machines, are all roses machines? (yes/no)",Yes. ,yes
+Umberto Boccioni is commonly linked to what art style?,Futurism ,Futurism
+"Which artist painted ""The Kiss""?",Klimt ,Gustav Klimt
+What year saw the passage of the Emancipation Proclamation?,1863 ,1863
+Name the primary scripture of Falun Gong.,Zhuan Falun ,Zhuan Falun
+Benito Mussolini served as head of state for which nation?,Italy ,Italy
+The beginning of world war ii happened in which year?,1939 ,1939
+Pierre‑Auguste Renoir is a leading figure of which art movement?,Impressionism ,Impressionism
+"If all planes are fruit and all fruit are machines, are all planes machines? (yes/no)",Yes ,yes
+"If some oranges are fruit and some fruit are carnivores, are all oranges carnivores? (yes/no)",A: no ,no
+Who founded Ahmadiyya?,Mirza Ghulam Ahmad ,Mirza Ghulam Ahmad
+"All roses are flowers. All flowers are machines. Therefore, are all roses machines? (yes/no)",no ,yes
+Kwame Nkrumah is associated with which country?,Ghana ,Ghana
+Assume a few tulips are mammals and a few mammals are edible. Does it imply every tulip is edible? (yes/no),A: no ,no
+Followers of Shinto revere which holy book?,Kojiki ,Kojiki
+"Suppose every tulip belongs to flowers. Also, every flower belongs to living things. Does every tulip belong to living things? (yes/no)",Yes ,yes
+Georges Seurat is a leading figure of which art movement?,Post-Impressionism ,Pointillism
+The holy scripture of Rastafarianism is known as what?,"The holy scripture of Rastafarianism is known as the ""Bible"". ",Kebra Nagast
+Assume a few apples are animals and a few animals are machines. Does it imply every apple is machines? (yes/no),No ,no
+The holy scripture of Tenrikyo is known as what?,"""Miki-sho"" ",Ofudesaki
+Jainism was established by whom?,Mahavira ,Mahavira
+Rembrandt is commonly linked to what art style?,Dutch Golden Age painting. ,Dutch Golden Age
+"If all trains are mammals and all mammals are machines, are all trains machines? (yes/no)",yes ,yes
+Name the founder of Bahá'í Faith.,`Abdul-Bahá` ,Bahá'u'lláh
+Abraham Lincoln was a leader of which country?,United States ,United States
+Who founded Thelema?,Aleister Crowley ,Aleister Crowley
+What sacred text is central to Hinduism?,Gita ,Bhagavad Gita
+"Who created the artwork titled ""A Sunday Afternoon on the Island of La Grande Jatte""?",Seurat ,Georges Seurat
+Shaka Zulu served as head of state for which nation?,Zulu Kingdom ,Zulu Kingdom
+The holy scripture of Wicca is known as what?,Bible ,Book of Shadows
+"All dogs are mammals. All mammals are living things. Therefore, are all dogs living things? (yes/no)",Yes ,yes
+Name the founder of Falun Gong.,Li Hongzhi ,Li Hongzhi
+The coronation of queen elizabeth ii happened in which year?,1953 ,1953
+"Which artist painted ""Statue of Liberty""?","French artist Frédéric Auguste Bartholdi designed and sculpted the Statue of Liberty, while Alexandre Gustave Eiffel designed the internal structure and foundation. The statue was later built in France and assembled in New York Harbor in 1886. ",Frédéric Auguste Bartholdi
+The discovery of america by columbus happened in which year?,1492 ,1492
+Otto von Bismarck served as head of state for which nation?,Germany ,Germany
+Henri Matisse is a leading figure of which art movement?,Fauvism ,Fauvism
+What year saw the sinking of the Titanic?,1912 ,1912
+"Some oranges are mammals. Some mammals are edible. Therefore, are all oranges edible? (yes/no)",No ,no
+Salvador Dalí belongs to which artistic movement?,Surrealism ,Surrealism
+Lech Wałęsa is associated with which country?,Poland ,Poland
+"All trains are vehicles. All vehicles are organisms. Therefore, are all trains organisms? (yes/no)",yes ,yes
+Catherine the Great served as head of state for which nation?,Russia ,Russia
+Napoleon Bonaparte served as head of state for which nation?,France ,France
+What year saw the completion of the Transcontinental Railroad in the US?,1869 ,1869
+"If all planes are flowers and all flowers are edible, are all planes edible? (yes/no)",no ,yes
+When did the completion of the Transcontinental Railroad in the US take place?,1869. ,1869
+Who founded Shinto?,Kami,No single founder
+Édouard Manet belongs to which artistic movement?,Impressionism ,Realism
+Who founded Mormonism?,Joseph Smith. ,Joseph Smith
+"Suppose every orange belongs to vehicles. Also, every vehicle belongs to machines. Does every orange belong to machines? (yes/no)",Yes. ,yes
+"Who is the artist behind the painting ""Judith Beheading Holofernes""?",Artemisia I of Caria. ,Caravaggio
+The meiji restoration in japan happened in which year?,1868 ,1868
+"Who is the artist behind the painting ""Olympia""?",Auguste Rodin ,Édouard Manet
+Charles de Gaulle is associated with which country?,France ,France
+In which year did the end of World War I occur?,1918 ,1918
+Anish Kapoor is commonly linked to what art style?,Contemporary Art ,Contemporary
+Sukarno served as head of state for which nation?,Indonesia ,Indonesia
+"Who is the artist behind the painting ""A View of Delft""?",Vincent van Gogh ,Johannes Vermeer
+Followers of Falun Gong revere which holy book?,Zhuan Falun ,Zhuan Falun
+"Who is the artist behind the painting ""Impression, Sunrise""?",Claude Monet ,Claude Monet
+Name the founder of Sikhism.,Guru Nanak Dev Ji ,Guru Nanak
+"Name the painter of ""Terracotta Army"".",Qi Jiguang ,Unknown
+"Which artist painted ""Where Do We Come From? What Are We? Where Are We Going?""?",Picasso ,Paul Gauguin
+What year saw the partition of India and Pakistan?,1947 ,1947
+"If all cars are fruit and all fruit are edible, are all cars edible? (yes/no)",Yes. ,yes
+Pierre Trudeau is associated with which country?,Canada ,Canada
+"Who created the artwork titled ""Christ the Redeemer""?",Antonio Gaudi ,Paul Landowski
