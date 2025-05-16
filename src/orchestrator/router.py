@@ -11,9 +11,10 @@ This module handles:
 from typing import Optional, Dict, Any
 from dataclasses import dataclass
 import logging
+import torch
 
-from ..models.base import BaseModel
-from ..models.config import ModelConfig
+from models.base import BaseModel
+from models.config import ModelConfig
 
 @dataclass
 class RouterConfig:
@@ -43,3 +44,4 @@ class Router:
         """Detect if the model's response indicates uncertainty."""
         # TODO: 
         pass
+    

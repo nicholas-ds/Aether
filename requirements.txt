@@ -1,10 +1,20 @@
-requests
-pandas
-aiohttp
-tqdm
-
+# Core dependencies
 torch>=2.0.0
 transformers>=4.36.0
 accelerate>=0.25.0
-bitsandbytes>=0.41.0  
-sentencepiece  
+bitsandbytes>=0.41.0
+sentencepiece>=0.1.99
+protobuf>=4.25.1
+
+# Model specific dependencies
+einops>=0.7.0  # Required for Qwen models
+tiktoken>=0.5.1  # Tokenizer support
+safetensors>=0.4.0  # For safe model loading
+
+# Utility packages
+requests>=2.31.0
+pandas>=2.1.0
+aiohttp>=3.9.0
+tqdm>=4.66.0
+numpy>=1.24.0
+pathlib>=1.0.1  
