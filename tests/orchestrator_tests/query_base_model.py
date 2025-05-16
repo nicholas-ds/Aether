@@ -29,10 +29,10 @@ if model_path.exists():
 model_config = ModelConfig(
     model_name="Qwen3-14B",
     local_model_path=model_path,
-    use_huggingface=False,  # Use local model
-    torch_dtype=torch.float16,  # Use float16 for better memory efficiency
-    load_in_4bit=True,  # Enable 4-bit quantization
-    device="cuda"  # Force GPU usage
+    use_huggingface=False,  
+    torch_dtype=torch.float16,  
+    load_in_4bit=True,  
+    device="cuda" 
 )
 
 torch.cuda.empty_cache()
