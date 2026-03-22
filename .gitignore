@@ -1,2 +1,53 @@
-docs/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
 
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ML — model weights and cache
+/models/
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+
+# ML — HuggingFace
+*.lock
+blobs/
+snapshots/
+
+# Secrets
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tooling
+.claude/
+
+# Logs
+*.log
+logs/
+
+# Build
+dist/
+build/
+*.egg-info/
