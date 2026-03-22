@@ -1,168 +1,118 @@
 import logging
-from typing import Optional, Tuple, Dict, Any
+from typing import Dict, Any
+from transformers import AutoModelForCausalLM, AutoTokenizer, TextIteratorStreamer
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
-from pathlib import Path
+from threading import Thread
 
 from .config import ModelConfig
 
+
 class BaseModel:
-    """Base model manager for loading and managing the foundation model."""
-    
     def __init__(self, config: ModelConfig):
         self.config = config
         self.model = None
         self.tokenizer = None
         self.logger = logging.getLogger(__name__)
-    
+
+    def _validate_environment(self) -> None:
+        if self.config.device == "cuda" and not torch.cuda.is_available():
+            raise RuntimeError(
+                "CUDA device requested but torch.cuda.is_available() is False. "
+                "Install the correct PyTorch build for your GPU: "
+                "https://pytorch.org/get-started/locally/"
+            )
+        if self.config.local_model_path and not self.config.local_model_path.exists():
+            raise FileNotFoundError(f"Model path does not exist: {self.config.local_model_path}")
+
     def load(self) -> bool:
-        """
-        Load the specified model and its tokenizer.
-        Prioritizes local model loading, falls back to Hugging Face if configured.
-        """
         try:
-            if not self.config.use_huggingface:
-                return self._load_local_model()
-            else:
-                return self._load_huggingface_model()
-                
+            self._validate_environment()
+            model_path = self.config.local_model_path if self.config.local_model_path else self.config.huggingface_model_id
+            self.logger.info(f"Loading model from: {model_path}")
+
+            self.tokenizer = AutoTokenizer.from_pretrained(
+                model_path,
+                trust_remote_code=True,
+                cache_dir=str(self.config.cache_dir)
+            )
+            self.model = AutoModelForCausalLM.from_pretrained(
+                model_path,
+                dtype=self.config.torch_dtype,
+                device_map={"": 0},
+                quantization_config=self.config.quantization_config,
+                trust_remote_code=True,
+                local_files_only=self.config.local_model_path is not None,
+                cache_dir=str(self.config.cache_dir),
+                low_cpu_mem_usage=True,
+            )
+            return True
         except Exception as e:
             self.logger.error(f"Error loading model: {str(e)}")
-            self.model = None
-            self.tokenizer = None
             return False
-    
-    def _load_local_model(self) -> bool:
-        """Load model from local path."""
-        if not self.config.local_model_path or not self.config.local_model_path.exists():
-            self.logger.error(f"Local model path does not exist: {self.config.local_model_path}")
-            return False
-            
-        self.logger.info(f"Loading model from local path: {self.config.local_model_path}")
-        
-        try:
-            self.tokenizer = AutoTokenizer.from_pretrained(
-                str(self.config.local_model_path),
-                trust_remote_code=True,
-                local_files_only=True
-            )
-            
-            quantization_config = None
-            if self.config.load_in_4bit:
-                quantization_config = BitsAndBytesConfig(
-                    load_in_4bit=True,
-                    bnb_4bit_compute_dtype=torch.float16,
-                    bnb_4bit_use_double_quant=True,
-                    bnb_4bit_quant_type="nf4"
-                )
-            
-            self.model = AutoModelForCausalLM.from_pretrained(
-                str(self.config.local_model_path),
-                trust_remote_code=True,
-                torch_dtype=self.config.torch_dtype,
-                device_map="auto",
-                local_files_only=True,
-                quantization_config=quantization_config,
-                max_memory={0: "14GiB"}  # Limit GPU memory usage to 14GB
-            )
-            
-            if self.model is None or self.tokenizer is None:
-                self.logger.error("Model or tokenizer failed to load")
-                return False
-                
-            self.logger.info("Local model loaded successfully")
-            return True
-            
-        except Exception as e:
-            self.logger.error(f"Error loading local model: {str(e)}")
-            return False
-    
-    def _load_huggingface_model(self) -> bool:
-        """Load model from Hugging Face."""
-        if not self.config.huggingface_model_id:
-            self.logger.error("No Hugging Face model ID provided")
-            return False
-            
-        self.logger.info(f"Loading model from Hugging Face: {self.config.huggingface_model_id}")
-        
-        try:
-            self.tokenizer = AutoTokenizer.from_pretrained(
-                self.config.huggingface_model_id,
-                trust_remote_code=True
-            )
-            
-            quantization_config = None
-            if self.config.load_in_8bit:
-                quantization_config = BitsAndBytesConfig(
-                    load_in_8bit=True,
-                    llm_int8_threshold=6.0,
-                    llm_int8_has_fp16_weight=False
-                )
-            
-            self.model = AutoModelForCausalLM.from_pretrained(
-                self.config.huggingface_model_id,
-                trust_remote_code=True,
-                torch_dtype=self.config.torch_dtype,
-                device_map="auto",
-                quantization_config=quantization_config
-            )
-            
-            if self.model is None or self.tokenizer is None:
-                self.logger.error("Model or tokenizer failed to load")
-                return False
-                
-            self.logger.info("Hugging Face model loaded successfully")
-            return True
-            
-        except Exception as e:
-            self.logger.error(f"Error loading Hugging Face model: {str(e)}")
-            return False
-    
-    def get_model_and_tokenizer(self) -> Tuple[Optional[AutoModelForCausalLM], Optional[AutoTokenizer]]:
-        """Get the loaded model and tokenizer."""
-        return self.model, self.tokenizer
 
-    def generate_response(self, prompt: str, max_length: int = 100, temperature: float = 0.7) -> Dict[str, Any]:
-        """
-        Generate a response for the given prompt.
-        
-        Args:
-            prompt: The input prompt to generate from
-            max_length: Maximum length of generated text
-            temperature: Sampling temperature (higher = more random)
-            
-        Returns:
-            Dict containing the generated text and metadata
-            
-        Raises:
-            RuntimeError: If model or tokenizer is not loaded
-        """
+    def generate_response(self, prompt: str, max_length: int = 512, temperature: float = 0.7, stream: bool = False) -> Dict[str, Any]:
         if not self.model or not self.tokenizer:
             raise RuntimeError("Model not loaded")
-        
+
         try:
-            inputs = self.tokenizer(prompt, return_tensors="pt").to(self.config.device)
-            
-            with torch.no_grad():
-                outputs = self.model.generate(
-                    **inputs,
-                    max_length=max_length,
-                    temperature=temperature,
-                    do_sample=True,
-                    pad_token_id=self.tokenizer.eos_token_id
-                )
-            
-            response_text = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
-            
+            messages = [{"role": "user", "content": prompt}]
+            text = self.tokenizer.apply_chat_template(
+                messages,
+                tokenize=False,
+                add_generation_prompt=True,
+                enable_thinking=not stream
+            )
+            inputs = self.tokenizer(text, return_tensors="pt").to(self.model.device)
+
+            generation_kwargs = dict(
+                **inputs,
+                max_new_tokens=max_length,
+                temperature=temperature,
+                top_p=0.95,
+                top_k=20,
+                min_p=0,
+                do_sample=True,
+                use_cache=True,
+            )
+
+            if stream:
+                streamer = TextIteratorStreamer(self.tokenizer, skip_special_tokens=True, skip_prompt=True)
+                thread = Thread(target=self.model.generate, kwargs={**generation_kwargs, "streamer": streamer})
+                thread.start()
+                for token in streamer:
+                    yield {"text": token}
+                thread.join()
+                return
+
+            outputs = self.model.generate(**generation_kwargs)
+            output_ids = outputs[0][len(inputs.input_ids[0]):].tolist()
+
+            think_end_id = self.tokenizer.convert_tokens_to_ids("<|/think|>")
+            try:
+                index = len(output_ids) - output_ids[::-1].index(think_end_id)
+            except ValueError:
+                index = 0
+
+            thinking_content = self.tokenizer.decode(output_ids[:index], skip_special_tokens=True).strip("\n")
+            content = self.tokenizer.decode(output_ids[index:], skip_special_tokens=True).strip("\n")
+
             return {
-                "text": response_text,
-                "metadata": {
-                    "temperature": temperature,
-                    "max_length": max_length,
-                    "model_name": self.config.model_name
-                }
+                "text": content,
+                "thinking": thinking_content,
             }
-            
         except Exception as e:
             self.logger.error(f"Error during generation: {str(e)}")
             raise
+
+    def unload(self) -> bool:
+        try:
+            if self.model:
+                self.model = None
+                self.tokenizer = None
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+                return True
+            return False
+        except Exception as e:
+            self.logger.error(f"Error unloading model: {str(e)}")
+            return False
