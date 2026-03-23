@@ -22,9 +22,9 @@ class Router:
     def unload_model(self) -> bool:
         return self.base_model.unload()
 
-    def generate_response(self, prompt: str, max_length: int = 512, temperature: float = 0.7, stream: bool = False):
+    def generate_response(self, messages: list[dict], max_length: int = 512, temperature: float = 0.7, stream: bool = False):
         return self.base_model.generate_response(
-            prompt=prompt,
+            messages=messages,
             max_length=max_length,
             temperature=temperature,
             stream=stream

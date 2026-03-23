@@ -9,6 +9,14 @@ from src.models.config import ModelConfig
 from src.orchestrator.router import Router, RouterConfig
 
 
+def append_user_message(messages: list[dict], content: str) -> list[dict]:
+    return messages + [{"role": "user", "content": content}]
+
+
+def append_assistant_message(messages: list[dict], content: str) -> list[dict]:
+    return messages + [{"role": "assistant", "content": content}]
+
+
 def main():
     parser = argparse.ArgumentParser(description="Chat with a local LLM")
     parser.add_argument("--model-name", default="Qwen3-14B")
@@ -33,6 +41,8 @@ def main():
         print("\nChat CLI (type 'exit' to quit)")
         print("=" * 50)
 
+        messages = []
+
         while True:
             user_input = input("\nYou: ").strip()
             if not user_input:
@@ -40,12 +50,18 @@ def main():
             if user_input.lower() in ("exit", "quit"):
                 break
 
+            messages = append_user_message(messages, user_input)
+
             try:
                 print("\nAssistant: ", end="", flush=True)
-                for token in router.generate_response(prompt=user_input, stream=True):
+                response_text = ""
+                for token in router.generate_response(messages=messages, stream=True):
                     print(token["text"], end="", flush=True)
+                    response_text += token["text"]
                 print()
+                messages = append_assistant_message(messages, response_text)
             except Exception as e:
+                messages = messages[:-1]
                 print(f"\nError: {e}")
     finally:
         print("\nUnloading model...")

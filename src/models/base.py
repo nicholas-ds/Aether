@@ -50,12 +50,11 @@ class BaseModel:
             self.logger.error(f"Error loading model: {str(e)}")
             return False
 
-    def generate_response(self, prompt: str, max_length: int = 512, temperature: float = 0.7, stream: bool = False) -> Dict[str, Any]:
+    def generate_response(self, messages: list[dict], max_length: int = 512, temperature: float = 0.7, stream: bool = False) -> Dict[str, Any]:
         if not self.model or not self.tokenizer:
             raise RuntimeError("Model not loaded")
 
         try:
-            messages = [{"role": "user", "content": prompt}]
             text = self.tokenizer.apply_chat_template(
                 messages,
                 tokenize=False,
