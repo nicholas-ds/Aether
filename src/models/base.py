@@ -1,5 +1,4 @@
 import logging
-from typing import Dict, Any
 from transformers import AutoModelForCausalLM, AutoTokenizer, TextIteratorStreamer
 import torch
 from threading import Thread
@@ -50,7 +49,7 @@ class BaseModel:
             self.logger.error(f"Error loading model: {str(e)}")
             return False
 
-    def generate_response(self, messages: list[dict], max_length: int = 512, temperature: float = 0.7, stream: bool = False) -> Dict[str, Any]:
+    def generate_response(self, messages: list[dict], max_length: int = 512, temperature: float = 0.7, stream: bool = False):
         if not self.model or not self.tokenizer:
             raise RuntimeError("Model not loaded")
 
@@ -62,6 +61,7 @@ class BaseModel:
                 enable_thinking=True,
             )
             inputs = self.tokenizer(text, return_tensors="pt").to(self.model.device)
+            max_context = self.model.config.max_position_embeddings
 
             generation_kwargs = dict(
                 **inputs,
@@ -76,11 +76,15 @@ class BaseModel:
 
             if stream:
                 streamer = TextIteratorStreamer(self.tokenizer, skip_special_tokens=True, skip_prompt=True)
-                thread = Thread(target=self.model.generate, kwargs={**generation_kwargs, "streamer": streamer})
+                result = {}
+                def run():
+                    result["output"] = self.model.generate(**generation_kwargs, streamer=streamer)
+                thread = Thread(target=run)
                 thread.start()
                 for token in streamer:
                     yield {"text": token}
                 thread.join()
+                yield {"tokens_used": len(result["output"][0]), "max_tokens": max_context}
                 return
 
             outputs = self.model.generate(**generation_kwargs)
@@ -97,7 +101,7 @@ class BaseModel:
                 thinking = ""
                 content = decoded.strip()
 
-            return {"text": content, "thinking": thinking}
+            yield {"text": content, "thinking": thinking, "tokens_used": len(outputs[0]), "max_tokens": max_context}
         except Exception as e:
             self.logger.error(f"Error during generation: {str(e)}")
             raise

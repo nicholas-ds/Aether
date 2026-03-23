@@ -55,10 +55,18 @@ def main():
             try:
                 print("\nAssistant: ", end="", flush=True)
                 response_text = ""
-                for token in router.generate_response(messages=messages, stream=True):
-                    print(token["text"], end="", flush=True)
-                    response_text += token["text"]
+                tokens_used = None
+                max_tokens = None
+                for chunk in router.generate_response(messages=messages, stream=True):
+                    if "text" in chunk:
+                        print(chunk["text"], end="", flush=True)
+                        response_text += chunk["text"]
+                    elif "tokens_used" in chunk:
+                        tokens_used = chunk["tokens_used"]
+                        max_tokens = chunk["max_tokens"]
                 print()
+                if tokens_used is not None:
+                    print(f"[context: {round(tokens_used / max_tokens * 100, 1)}%]")
                 messages = append_assistant_message(messages, response_text)
             except Exception as e:
                 messages = messages[:-1]
