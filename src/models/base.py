@@ -60,7 +60,7 @@ class BaseModel:
                 messages,
                 tokenize=False,
                 add_generation_prompt=True,
-                enable_thinking=not stream
+                enable_thinking=True,
             )
             inputs = self.tokenizer(text, return_tensors="pt").to(self.model.device)
 
@@ -85,21 +85,20 @@ class BaseModel:
                 return
 
             outputs = self.model.generate(**generation_kwargs)
-            output_ids = outputs[0][len(inputs.input_ids[0]):].tolist()
+            decoded = self.tokenizer.decode(
+                outputs[0][len(inputs.input_ids[0]):],
+                skip_special_tokens=True,
+            )
 
-            think_end_id = self.tokenizer.convert_tokens_to_ids("<|/think|>")
-            try:
-                index = len(output_ids) - output_ids[::-1].index(think_end_id)
-            except ValueError:
-                index = 0
+            if "</think>" in decoded:
+                thinking, content = decoded.split("</think>", 1)
+                thinking = thinking.replace("<think>", "").strip()
+                content = content.strip()
+            else:
+                thinking = ""
+                content = decoded.strip()
 
-            thinking_content = self.tokenizer.decode(output_ids[:index], skip_special_tokens=True).strip("\n")
-            content = self.tokenizer.decode(output_ids[index:], skip_special_tokens=True).strip("\n")
-
-            return {
-                "text": content,
-                "thinking": thinking_content,
-            }
+            return {"text": content, "thinking": thinking}
         except Exception as e:
             self.logger.error(f"Error during generation: {str(e)}")
             raise
