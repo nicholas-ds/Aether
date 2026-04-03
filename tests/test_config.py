@@ -20,3 +20,7 @@ def test_n_gpu_layers_custom():
 
 def test_n_ctx_custom():
     assert make_config(n_ctx=8192).n_ctx == 8192
+
+
+def test_enable_thinking_default():
+    assert make_config().enable_thinking is True
