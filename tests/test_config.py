@@ -11,7 +11,7 @@ def test_n_gpu_layers_default():
 
 
 def test_n_ctx_default():
-    assert make_config().n_ctx == 32768
+    assert make_config().n_ctx == 16384
 
 
 def test_n_gpu_layers_custom():

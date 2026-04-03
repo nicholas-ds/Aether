@@ -19,8 +19,10 @@ def append_assistant_message(messages: list[dict], content: str) -> list[dict]:
 
 def main():
     parser = argparse.ArgumentParser(description="Chat with a local LLM")
-    parser.add_argument("--model-name", default="Qwen3-14B")
+    parser.add_argument("--model-name", default="mlabonne_Qwen3-14B-abliterated-Q5_K_S.gguf")
     parser.add_argument("--model-path", type=Path, default=None)
+    parser.add_argument("--show-thinking", action="store_true", default=False)
+    parser.add_argument("--thinking", action="store_true", default=False)
     args = parser.parse_args()
 
     model_path = args.model_path or (PROJECT_ROOT / "models" / "local" / args.model_name)
@@ -53,14 +55,17 @@ def main():
             messages = append_user_message(messages, user_input)
 
             try:
-                print("\nAssistant: ", end="", flush=True)
+                print("\nAether: ", end="", flush=True)
                 response_text = ""
                 tokens_used = None
                 max_tokens = None
-                for chunk in router.generate_response(messages=messages, stream=True):
+                for chunk in router.generate_response(messages=messages, stream=True, enable_thinking=args.thinking):
                     if "text" in chunk:
                         print(chunk["text"], end="", flush=True)
                         response_text += chunk["text"]
+                    elif "thinking" in chunk:
+                        if args.show_thinking:
+                            print(chunk["thinking"], end="", flush=True)
                     elif "tokens_used" in chunk:
                         tokens_used = chunk["tokens_used"]
                         max_tokens = chunk["max_tokens"]

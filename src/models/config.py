@@ -17,7 +17,7 @@ class ModelConfig:
     quantization_config: Optional[BitsAndBytesConfig] = None
     enable_thinking: bool = True
     n_gpu_layers: int = -1
-    n_ctx: int = 32768
+    n_ctx: int = 16384
 
     def __post_init__(self):
         if not self.use_huggingface and not self.local_model_path:

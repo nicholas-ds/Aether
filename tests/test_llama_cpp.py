@@ -21,7 +21,7 @@ def test_load_success(tmp_path):
     MockLlama.assert_called_once_with(
         model_path=gguf_file.as_posix(),
         n_gpu_layers=-1,
-        n_ctx=32768,
+        n_ctx=16384,
         verbose=False,
     )
 
@@ -38,12 +38,12 @@ def test_load_uses_config_values(tmp_path):
     gguf_file = tmp_path / "model.gguf"
     gguf_file.touch()
     with patch("src.models.backends.llama_cpp.Llama") as MockLlama:
-        backend = LlamaCppBackend(make_config(path=gguf_file, n_gpu_layers=20, n_ctx=8192))
+        backend = LlamaCppBackend(make_config(path=gguf_file, n_gpu_layers=20, n_ctx=16384))
         backend.load()
     MockLlama.assert_called_once_with(
         model_path=gguf_file.as_posix(),
         n_gpu_layers=20,
-        n_ctx=8192,
+        n_ctx=16384,
         verbose=False,
     )
 
@@ -81,7 +81,7 @@ def test_generate_non_stream(tmp_path):
     text_result = next(r for r in results if "text" in r)
     assert text_result["text"] == "hello"
     assert text_result["tokens_used"] == 10
-    assert text_result["max_tokens"] == 32768
+    assert text_result["max_tokens"] == 16384
 
 
 def test_generate_stream(tmp_path):
@@ -102,4 +102,4 @@ def test_generate_stream(tmp_path):
     assert "hello" in text_chunks
     assert " world" in text_chunks
     token_result = next(r for r in results if "tokens_used" in r)
-    assert token_result["max_tokens"] == 32768
+    assert token_result["max_tokens"] == 16384

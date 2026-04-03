@@ -27,7 +27,7 @@ class Router:
     def unload_model(self) -> bool:
         return self.backend.unload()
 
-    def generate_response(self, messages: list[dict], max_length: int = 512, temperature: float = 0.7, stream: bool = False, enable_thinking: bool | None = None):
+    def generate_response(self, messages: list[dict], max_length: int = 4096, temperature: float = 0.7, stream: bool = False, enable_thinking: bool | None = None):
         return self.backend.generate_response(
             messages=messages,
             max_length=max_length,

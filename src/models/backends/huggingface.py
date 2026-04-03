@@ -47,7 +47,7 @@ class HuggingFaceBackend(ModelBackend):
             self.logger.error(f"Error loading model: {str(e)}")
             return False
 
-    def generate_response(self, messages: list[dict], max_length: int = 512, temperature: float = 0.7, stream: bool = False, enable_thinking: bool | None = None):
+    def generate_response(self, messages: list[dict], max_length: int = 4096, temperature: float = 0.7, stream: bool = False, enable_thinking: bool | None = None):
         if not self.model or not self.tokenizer:
             raise RuntimeError("Model not loaded")
 

@@ -1,3 +1,15 @@
+import os
+import sys
+
+if sys.platform == "win32":
+    _cuda_base = r"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA"
+    if os.path.isdir(_cuda_base):
+        for _ver in os.listdir(_cuda_base):
+            for _sub in ("bin\\x64", "bin"):
+                _p = os.path.join(_cuda_base, _ver, _sub)
+                if os.path.isdir(_p):
+                    os.add_dll_directory(_p)
+
 try:
     from llama_cpp import Llama
 except ImportError:
@@ -42,7 +54,7 @@ class LlamaCppBackend(ModelBackend):
             self.logger.error(f"Error unloading model: {str(e)}")
             return False
 
-    def generate_response(self, messages: list[dict], max_length: int = 512, temperature: float = 0.7, stream: bool = False, enable_thinking: bool | None = None):
+    def generate_response(self, messages: list[dict], max_length: int = 4096, temperature: float = 0.7, stream: bool = False, enable_thinking: bool | None = None):
         if not self.model:
             raise RuntimeError("Model not loaded")
         # enable_thinking is not used: Qwen3 emits <think> tags naturally via its chat template
