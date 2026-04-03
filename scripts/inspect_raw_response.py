@@ -5,7 +5,7 @@ PROJECT_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.models.config import ModelConfig
-from src.models.base import BaseModel
+from src.models.backends.huggingface import HuggingFaceBackend
 
 MODEL_NAME = "Qwen3-14B"
 PROMPT = "What is 2 + 2?"
@@ -14,7 +14,7 @@ config = ModelConfig(
     model_name=MODEL_NAME,
     local_model_path=PROJECT_ROOT / "models" / "local" / MODEL_NAME,
 )
-model = BaseModel(config)
+model = HuggingFaceBackend(config)
 
 print("Loading model...")
 model.load()
