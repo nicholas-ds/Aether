@@ -15,6 +15,9 @@ class ModelConfig:
     device: str = "cuda" if torch.cuda.is_available() else "cpu"
     torch_dtype: torch.dtype = torch.float16 if torch.cuda.is_available() else torch.float32
     quantization_config: Optional[BitsAndBytesConfig] = None
+    enable_thinking: bool = True
+    n_gpu_layers: int = -1
+    n_ctx: int = 16384
 
     def __post_init__(self):
         if not self.use_huggingface and not self.local_model_path:

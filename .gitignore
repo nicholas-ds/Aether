@@ -42,6 +42,7 @@ Thumbs.db
 
 # Tooling
 .claude/
+claude.md
 
 # Logs
 *.log
@@ -51,3 +52,4 @@ logs/
 dist/
 build/
 *.egg-info/
+*.whl
