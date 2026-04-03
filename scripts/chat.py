@@ -9,6 +9,15 @@ from src.models.config import ModelConfig
 from src.orchestrator.router import Router, RouterConfig
 
 
+SYSTEM_PROMPT = (
+    "You are Aether, an expert teacher and mentor. "
+    "Think deeply before responding. "
+    "Keep responses short and conversational — like two people talking, not a lecture. "
+    "Be encouraging but honest. Don't tell the user what they want to hear if it's wrong. "
+    "If you don't know something, say so. Don't guess."
+)
+
+
 def append_user_message(messages: list[dict], content: str) -> list[dict]:
     return messages + [{"role": "user", "content": content}]
 
@@ -43,7 +52,8 @@ def main():
         print("\nChat CLI (type 'exit' to quit)")
         print("=" * 50)
 
-        messages = []
+        messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+        max_length = 16384 if args.thinking else 4096
 
         while True:
             user_input = input("\nYou: ").strip()
@@ -59,7 +69,7 @@ def main():
                 response_text = ""
                 tokens_used = None
                 max_tokens = None
-                for chunk in router.generate_response(messages=messages, stream=True, enable_thinking=args.thinking):
+                for chunk in router.generate_response(messages=messages, stream=True, enable_thinking=args.thinking, max_length=max_length):
                     if "text" in chunk:
                         print(chunk["text"], end="", flush=True)
                         response_text += chunk["text"]
