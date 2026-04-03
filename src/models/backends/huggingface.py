@@ -1,4 +1,3 @@
-import logging
 import torch
 from threading import Thread
 from transformers import AutoModelForCausalLM, AutoTokenizer, TextIteratorStreamer

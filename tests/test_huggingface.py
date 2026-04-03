@@ -23,6 +23,7 @@ def test_load_success(tmp_path):
         result = backend.load()
     assert result is True
     assert backend.model is not None
+    assert backend.tokenizer is not None
 
 
 def test_load_missing_path():
@@ -44,6 +45,7 @@ def test_unload_clears_model(tmp_path):
         result = backend.unload()
     assert result is True
     assert backend.model is None
+    assert backend.tokenizer is None
 
 
 def test_generate_raises_when_not_loaded():
