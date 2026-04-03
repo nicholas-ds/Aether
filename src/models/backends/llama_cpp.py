@@ -1,5 +1,3 @@
-import logging
-
 try:
     from llama_cpp import Llama
 except ImportError:
@@ -12,11 +10,17 @@ from ..config import ModelConfig
 class LlamaCppBackend(ModelBackend):
     def __init__(self, config: ModelConfig):
         super().__init__(config)
-        self.logger = logging.getLogger(__name__)
         self.model = None
 
     def load(self) -> bool:
         try:
+            if Llama is None:
+                raise RuntimeError(
+                    "llama-cpp-python is not installed. "
+                    "Install with: pip install llama-cpp-python"
+                )
+            if not self.config.local_model_path or not self.config.local_model_path.exists():
+                raise FileNotFoundError(f"Model path does not exist: {self.config.local_model_path}")
             self.model = Llama(
                 model_path=self.config.local_model_path.as_posix(),
                 n_gpu_layers=self.config.n_gpu_layers,
@@ -41,6 +45,7 @@ class LlamaCppBackend(ModelBackend):
     def generate_response(self, messages: list[dict], max_length: int = 512, temperature: float = 0.7, stream: bool = False, enable_thinking: bool | None = None):
         if not self.model:
             raise RuntimeError("Model not loaded")
+        # enable_thinking is not used: Qwen3 emits <think> tags naturally via its chat template
 
         if stream:
             response = self.model.create_chat_completion(
