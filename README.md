@@ -1,18 +1,17 @@
 # Aether
 
-A modular local LLM system designed to run specialized AI agents on your home network. Currently in early development and testing phase.
+A modular local LLM system designed to run specialized AI agents on your home network. Currently in early development.
 
 ## Objective
 
-Testing and developing a system of specialized local LLMs orchestrated by a base model (targeting 13B models).
+Building a local-first, privacy-focused system of specialized LLM agents orchestrated by a base model.
 
-## Current Focus
+## Current State
 
-- Evaluating 13B models for orchestrator role
-- Testing QLoRA fine-tuning capabilities
-- Exploring modular agent architecture
-- Local-first and privacy-focused design
+- Base model loading via llama.cpp (GGUF) and HuggingFace backends
+- CLI chat interface with conversation history and thinking mode
+- Router selects backend automatically by model file type
 
 ## Status
 
-Early development - Experimenting with model capabilities and system architecture.
+Early development — architecture is taking shape, features are minimal by design.
